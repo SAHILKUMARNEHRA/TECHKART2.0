@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tk-bg: #f7fbff;
+  --tk-fg: #0b1220;
+  --tk-card: rgba(255, 255, 255, 0.85);
+  --tk-border: rgba(15, 23, 42, 0.1);
+  --tk-primary: #1d5cff;
+  --tk-primary-2: #00a8ff;
+
+  font-family: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji";
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background:
+    radial-gradient(900px 500px at 8% -10%, rgba(0, 168, 255, 0.22), transparent 65%),
+    radial-gradient(900px 500px at 92% -10%, rgba(29, 92, 255, 0.22), transparent 65%),
+    radial-gradient(700px 400px at 30% 110%, rgba(29, 92, 255, 0.12), transparent 62%),
+    var(--tk-bg);
+  color: var(--tk-fg);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tk-page {
+  animation: tkEnter 240ms ease-out;
+}
+
+.tk-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tk-page {
+    animation: none;
+  }
+}
+
+@keyframes tkEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes tk_toast_in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
