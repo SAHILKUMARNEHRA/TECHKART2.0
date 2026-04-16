@@ -20,15 +20,26 @@ type ProductBase = {
   price: number
 }
 
-function img(seed: string, size = 900) {
-  return `https://picsum.photos/seed/${encodeURIComponent(seed)}/${size}/${size}`
+const P = ["1511707171634-5f897ff02aa9","1598327105650-80327663e2c6","1533228100840-081b3af53203","1605236453806-6ff36851218e","1575037614876-c385124f5a3e","1556656793-89a4c47d7c67","1601784551446-20c9e07cdbc0","1585060544812-6b45742c222c"];
+const L = ["1517336714731-489689fd1ca8","1593640408182-31c70c8268f5","1603302576837-37561b2e2302","1496181133206-80ce9b88a853","1541807084-5e66085a2109","1587614382346-4a56f2f120f2","1525547719571-a2d4ac8945e2","1498050108023-c5249f4df085"];
+const T = ["1544244015-0422a4659b83","1585790053232-a423f0515f4d","1561154464839-813c9e05e55e","1607316930063-e525162a8335","1512314889357-e157c22f938d","1555099962-4199c345e5dd","1580828369247-f70362f67646","1542994468-b80c5e744e83"];
+const W = ["1434493789847-2f02b3112b32","1508685002900-2f9f688e1467","1579586337278-3befd40fd17a","1509741102003-ca59ec6a661f","1523275335684-37898b6baf30","1517502396347-195b05216e5f","1546868871869-7090b82f0fa5","1511370235398-c209c894c489"];
+
+function getImg(category: string, idx: number) {
+  let arr: string[];
+  if (category === 'smartphones') arr = P;
+  else if (category === 'laptops') arr = L;
+  else if (category === 'tablets') arr = T;
+  else arr = W;
+  const id = arr[idx % arr.length];
+  return `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=800&q=80`;
 }
 
 function makeProduct(id: number, category: 'smartphones' | 'laptops' | 'tablets' | 'smartwatches', base: ProductBase, idx: number): Product {
   const rating = Number((4.5 + ((idx % 5) * 0.1)).toFixed(1))
   const discountPercentage = 6 + ((idx * 3) % 18)
   const stock = 60 + ((idx * 17) % 220)
-  const thumb = img(`techkart-${category}-${id}`)
+  const thumb = getImg(category, idx)
   return {
     id,
     title: base.title,
@@ -40,7 +51,7 @@ function makeProduct(id: number, category: 'smartphones' | 'laptops' | 'tablets'
     brand: base.brand,
     category,
     thumbnail: thumb,
-    images: [thumb, img(`techkart-${category}-${id}-2`)],
+    images: [thumb, getImg(category, idx + 1)],
   }
 }
 
