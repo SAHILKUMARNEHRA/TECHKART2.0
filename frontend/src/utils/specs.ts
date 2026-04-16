@@ -39,13 +39,13 @@ export function getSpecProfile(product: Product): SpecProfile {
     }
   }
 
-  if (category === 'tablets') {
+  if (category === 'headphones') {
     return {
-      ram: pick(['4GB', '6GB', '8GB'], s + 21),
-      storage: pick(['64GB', '128GB', '256GB'], s + 22),
-      battery: pick(['7000mAh', '8000mAh', '9000mAh'], s + 23),
-      display: pickWeighted(['10.4" LCD', '11" LCD 120Hz', '12.9" IPS'], s + 24),
-      processor: pickWeighted(['Snapdragon 6-series', 'Dimensity 7-series', 'Apple-class performance'], s + 25),
+      ram: pick(['Bluetooth 5.2', 'Bluetooth 5.3'], s + 21),
+      storage: pick(['AAC', 'aptX', 'LDAC', 'SBC'], s + 22),
+      battery: pick(['20 Hours', '30 Hours', '40 Hours'], s + 23),
+      display: pickWeighted(['Over-Ear', 'In-Ear', 'On-Ear'], s + 24),
+      processor: pickWeighted(['Active Noise Cancelling', 'Passive Noise Cancelling', 'Spatial Audio'], s + 25),
     }
   }
 

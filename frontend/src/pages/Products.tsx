@@ -6,6 +6,7 @@ import Skeleton from '@/components/Skeleton'
 import EmptyState from '@/components/EmptyState'
 import Button from '@/components/Button'
 import ListingFilters from '@/components/ListingFilters'
+import Pagination from '@/components/Pagination'
 import { useCatalogStore } from '@/stores/catalogStore'
 import { toInrFromUsd } from '@/utils/money'
 import { MAIN_CATEGORIES, type TechCategory } from '@/constants/techkart'
@@ -18,7 +19,7 @@ function uniqSorted(list: string[]) {
 }
 
 function isTechCategory(v: string): v is TechCategory {
-  return v === 'smartphones' || v === 'laptops' || v === 'tablets' || v === 'smartwatches'
+  return v === 'smartphones' || v === 'laptops' || v === 'headphones' || v === 'smartwatches'
 }
 
 export default function Products() {
@@ -62,7 +63,9 @@ export default function Products() {
     new Set(initialCategory && isTechCategory(initialCategory) ? [initialCategory] : []),
   )
   const [minRating, setMinRating] = useState<number>(0)
-  const [visibleCount, setVisibleCount] = useState(18)
+  
+  const ITEMS_PER_PAGE = 18
+  const [currentPage, setCurrentPage] = useState(1)
 
   useEffect(() => {
     setPriceMin(priceBounds.min)
@@ -70,7 +73,7 @@ export default function Products() {
   }, [priceBounds.max, priceBounds.min])
 
   useEffect(() => {
-    setVisibleCount(18)
+    setCurrentPage(1)
   }, [initialBrand, initialCategory, minRating, priceMax, priceMin, q, sort, selectedBrands, selectedCategories])
 
   const allBrands = useMemo(() => uniqSorted(catalog.map((p) => p!.brand)), [catalog])
@@ -115,7 +118,12 @@ export default function Products() {
     setPriceMax(priceBounds.max)
   }
 
-  const visible = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount])
+  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
+
+  const visible = useMemo(() => {
+    const start = (currentPage - 1) * ITEMS_PER_PAGE
+    return filtered.slice(start, start + ITEMS_PER_PAGE)
+  }, [filtered, currentPage])
 
   return (
     <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
@@ -224,13 +232,13 @@ export default function Products() {
                 <ProductCard key={p!.id} product={p!} />
               ))}
             </div>
-            {visible.length < filtered.length ? (
-              <div className="flex justify-center">
-                <Button variant="secondary" className="h-11" onClick={() => setVisibleCount((n) => n + 18)}>
-                  Load more
-                </Button>
-              </div>
-            ) : null}
+            {totalPages > 1 && (
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={setCurrentPage}
+              />
+            )}
           </div>
         )}
       </main>
