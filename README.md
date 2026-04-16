@@ -17,8 +17,8 @@ TechKart is a lightweight tech e-commerce experience focused on comparing produc
 - Optional eBay listing lookup on Product Detail page
 
 ### Project Structure
-- `src/` React web app (Vite + Tailwind)
-- `api/` Express API (auth, products, addresses, orders)
+- `frontend/` React web app (Vite + Tailwind)
+- `backend/` Express API (auth, products, addresses, orders)
 
 ## Local Development
 
@@ -57,17 +57,18 @@ This project deploys cleanly as two services:
 ### Render (API)
 1. Create a new Web Service from this repo
 2. Build command:
-   - `npm install && npm run build:api`
+   - `npm install && npm -w backend run build`
 3. Start command:
-   - `node api/dist/index.js`
-4. Add environment variables from `render.env.example`
+   - `npm -w backend run start`
+4. Add environment variables from `deploy/render.env.example`
 5. Set `WEB_ORIGIN` to your Vercel app domain
 
 ### Vercel (Web)
 1. Import the repo in Vercel
 2. Framework preset: Vite
 3. Environment variables:
-   - `VITE_API_BASE=https://YOUR_RENDER_API_DOMAIN/api` (see `vercel.env.example`)
+   - `VITE_API_BASE=https://YOUR_RENDER_API_DOMAIN/api` (see `deploy/vercel.env.example`)
+   - Or import `deploy/techlar.env` into Vercel (then replace the domain)
 
 ## Notes
 - Orders/addresses require Postgres. Use Neon Postgres and set `DATABASE_URL`.
