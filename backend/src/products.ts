@@ -21,9 +21,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 844,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 13,
@@ -36,9 +36,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 1079,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 6,
@@ -51,9 +51,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1276,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 18,
@@ -66,13 +66,13 @@ const customProducts: Product[] = [
     "brand": "Nothing",
     "category": "smartphones",
     "price": 685,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
     ],
     "description": "High performance Nothing mobile phone with advanced camera and fast processing.",
     "discountPercentage": 15,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 480
   },
   {
@@ -81,9 +81,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 1111,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 20,
@@ -96,9 +96,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1032,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 14,
@@ -111,9 +111,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 643,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 21,
@@ -126,9 +126,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 771,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 15,
@@ -141,13 +141,13 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 955,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 9,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 194
   },
   {
@@ -156,9 +156,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartphones",
     "price": 650,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
     ],
     "description": "High performance Apple mobile phone with advanced camera and fast processing.",
     "discountPercentage": 17,
@@ -171,9 +171,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartphones",
     "price": 871,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
     ],
     "description": "High performance Samsung mobile phone with advanced camera and fast processing.",
     "discountPercentage": 20,
@@ -186,9 +186,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 1117,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 25,
@@ -201,9 +201,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 762,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 14,
@@ -216,9 +216,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 665,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 11,
@@ -231,9 +231,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 770,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 7,
@@ -246,9 +246,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 1280,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
@@ -261,9 +261,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartphones",
     "price": 1007,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
     ],
     "description": "High performance Apple mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
@@ -276,9 +276,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 891,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 21,
@@ -291,9 +291,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 563,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 11,
@@ -306,9 +306,9 @@ const customProducts: Product[] = [
     "brand": "Nothing",
     "category": "smartphones",
     "price": 1351,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
     ],
     "description": "High performance Nothing mobile phone with advanced camera and fast processing.",
     "discountPercentage": 25,
@@ -321,9 +321,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 426,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
@@ -336,9 +336,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 819,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 15,
@@ -351,9 +351,9 @@ const customProducts: Product[] = [
     "brand": "Realme",
     "category": "smartphones",
     "price": 988,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
     ],
     "description": "High performance Realme mobile phone with advanced camera and fast processing.",
     "discountPercentage": 20,
@@ -366,9 +366,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 1303,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 24,
@@ -381,9 +381,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 905,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 10,
@@ -396,13 +396,13 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 759,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 224
   },
   {
@@ -411,9 +411,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1004,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 24,
@@ -426,9 +426,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 1331,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
@@ -441,9 +441,9 @@ const customProducts: Product[] = [
     "brand": "Realme",
     "category": "smartphones",
     "price": 1047,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
     ],
     "description": "High performance Realme mobile phone with advanced camera and fast processing.",
     "discountPercentage": 13,
@@ -456,9 +456,9 @@ const customProducts: Product[] = [
     "brand": "Realme",
     "category": "smartphones",
     "price": 1121,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
     ],
     "description": "High performance Realme mobile phone with advanced camera and fast processing.",
     "discountPercentage": 9,
@@ -471,9 +471,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 1167,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 7,
@@ -486,9 +486,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 891,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
@@ -501,9 +501,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1152,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 18,
@@ -516,9 +516,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartphones",
     "price": 337,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
     ],
     "description": "High performance Samsung mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
@@ -531,9 +531,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartphones",
     "price": 794,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
     ],
     "description": "High performance Samsung mobile phone with advanced camera and fast processing.",
     "discountPercentage": 11,
@@ -546,9 +546,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 1499,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 16,
@@ -561,9 +561,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 798,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 22,
@@ -576,9 +576,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 1024,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 25,
@@ -591,9 +591,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 404,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 24,
@@ -606,13 +606,13 @@ const customProducts: Product[] = [
     "brand": "Nothing",
     "category": "smartphones",
     "price": 1053,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
     ],
     "description": "High performance Nothing mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 389
   },
   {
@@ -621,9 +621,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1264,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 15,
@@ -636,9 +636,9 @@ const customProducts: Product[] = [
     "brand": "Realme",
     "category": "smartphones",
     "price": 876,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
     ],
     "description": "High performance Realme mobile phone with advanced camera and fast processing.",
     "discountPercentage": 23,
@@ -651,9 +651,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 1236,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 11,
@@ -666,9 +666,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 731,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 25,
@@ -681,9 +681,9 @@ const customProducts: Product[] = [
     "brand": "Realme",
     "category": "smartphones",
     "price": 980,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
     ],
     "description": "High performance Realme mobile phone with advanced camera and fast processing.",
     "discountPercentage": 11,
@@ -696,9 +696,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 1489,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 12,
@@ -711,9 +711,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1210,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 17,
@@ -726,9 +726,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1223,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 18,
@@ -741,9 +741,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 972,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 21,
@@ -756,9 +756,9 @@ const customProducts: Product[] = [
     "brand": "Realme",
     "category": "smartphones",
     "price": 1392,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
     ],
     "description": "High performance Realme mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
@@ -771,9 +771,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 770,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
@@ -786,9 +786,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartphones",
     "price": 966,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
     ],
     "description": "High performance Samsung mobile phone with advanced camera and fast processing.",
     "discountPercentage": 21,
@@ -801,9 +801,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 553,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 9,
@@ -816,9 +816,9 @@ const customProducts: Product[] = [
     "brand": "Nothing",
     "category": "smartphones",
     "price": 1069,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
     ],
     "description": "High performance Nothing mobile phone with advanced camera and fast processing.",
     "discountPercentage": 17,
@@ -831,13 +831,13 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 1496,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 25,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 281
   },
   {
@@ -846,9 +846,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 754,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 7,
@@ -861,9 +861,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 319,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 20,
@@ -876,9 +876,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 990,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 7,
@@ -891,9 +891,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 484,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
@@ -906,9 +906,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 509,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 9,
@@ -921,9 +921,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 1061,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 7,
@@ -936,9 +936,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 495,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 11,
@@ -951,9 +951,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 1309,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 18,
@@ -966,9 +966,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 974,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 15,
@@ -981,9 +981,9 @@ const customProducts: Product[] = [
     "brand": "Realme",
     "category": "smartphones",
     "price": 1190,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
     ],
     "description": "High performance Realme mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
@@ -996,9 +996,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 835,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 23,
@@ -1011,9 +1011,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 1468,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 11,
@@ -1026,9 +1026,9 @@ const customProducts: Product[] = [
     "brand": "Nothing",
     "category": "smartphones",
     "price": 1083,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
     ],
     "description": "High performance Nothing mobile phone with advanced camera and fast processing.",
     "discountPercentage": 24,
@@ -1041,9 +1041,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 966,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 6,
@@ -1056,9 +1056,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 1459,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 8,
@@ -1071,9 +1071,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 737,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
@@ -1086,9 +1086,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 939,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 21,
@@ -1101,9 +1101,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartphones",
     "price": 669,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
     ],
     "description": "High performance Samsung mobile phone with advanced camera and fast processing.",
     "discountPercentage": 7,
@@ -1116,9 +1116,9 @@ const customProducts: Product[] = [
     "brand": "Realme",
     "category": "smartphones",
     "price": 637,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
     ],
     "description": "High performance Realme mobile phone with advanced camera and fast processing.",
     "discountPercentage": 8,
@@ -1131,9 +1131,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartphones",
     "price": 435,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
     ],
     "description": "High performance Samsung mobile phone with advanced camera and fast processing.",
     "discountPercentage": 6,
@@ -1146,9 +1146,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 421,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 21,
@@ -1161,13 +1161,13 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 365,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 279
   },
   {
@@ -1176,9 +1176,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 408,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 22,
@@ -1191,9 +1191,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 1059,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 23,
@@ -1206,9 +1206,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 367,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 14,
@@ -1221,9 +1221,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartphones",
     "price": 467,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
     ],
     "description": "High performance Apple mobile phone with advanced camera and fast processing.",
     "discountPercentage": 19,
@@ -1236,9 +1236,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartphones",
     "price": 827,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
     ],
     "description": "High performance Apple mobile phone with advanced camera and fast processing.",
     "discountPercentage": 17,
@@ -1251,9 +1251,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 1039,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 8,
@@ -1266,9 +1266,9 @@ const customProducts: Product[] = [
     "brand": "Nothing",
     "category": "smartphones",
     "price": 743,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
     ],
     "description": "High performance Nothing mobile phone with advanced camera and fast processing.",
     "discountPercentage": 21,
@@ -1281,9 +1281,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 562,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-a57/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
@@ -1296,9 +1296,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 714,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-f19-pro-plus/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 10,
@@ -1311,9 +1311,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 799,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/oppo-k1/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 18,
@@ -1326,9 +1326,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartphones",
     "price": 922,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-c35/thumbnail.webp"
     ],
     "description": "High performance Apple mobile phone with advanced camera and fast processing.",
     "discountPercentage": 23,
@@ -1341,9 +1341,9 @@ const customProducts: Product[] = [
     "brand": "Motorola",
     "category": "smartphones",
     "price": 352,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-x/thumbnail.webp"
     ],
     "description": "High performance Motorola mobile phone with advanced camera and fast processing.",
     "discountPercentage": 9,
@@ -1356,9 +1356,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 812,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/realme-xt/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 22,
@@ -1371,9 +1371,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 1251,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s7/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 16,
@@ -1386,9 +1386,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1017,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s8/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 15,
@@ -1401,9 +1401,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartphones",
     "price": 1100,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/samsung-galaxy-s10/thumbnail.webp"
     ],
     "description": "High performance Samsung mobile phone with advanced camera and fast processing.",
     "discountPercentage": 17,
@@ -1416,9 +1416,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 607,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-s1/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 23,
@@ -1431,9 +1431,9 @@ const customProducts: Product[] = [
     "brand": "OnePlus",
     "category": "smartphones",
     "price": 799,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-v9/thumbnail.webp"
     ],
     "description": "High performance OnePlus mobile phone with advanced camera and fast processing.",
     "discountPercentage": 20,
@@ -1446,9 +1446,9 @@ const customProducts: Product[] = [
     "brand": "Vivo",
     "category": "smartphones",
     "price": 1134,
-    "thumbnail": "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81Os1SDWpcL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/vivo-x21/thumbnail.webp"
     ],
     "description": "High performance Vivo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
@@ -1461,9 +1461,9 @@ const customProducts: Product[] = [
     "brand": "Xiaomi",
     "category": "smartphones",
     "price": 396,
-    "thumbnail": "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/thumbnail.webp"
     ],
     "description": "High performance Xiaomi mobile phone with advanced camera and fast processing.",
     "discountPercentage": 16,
@@ -1476,9 +1476,9 @@ const customProducts: Product[] = [
     "brand": "Oppo",
     "category": "smartphones",
     "price": 942,
-    "thumbnail": "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71BvE1K4BFL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/thumbnail.webp"
     ],
     "description": "High performance Oppo mobile phone with advanced camera and fast processing.",
     "discountPercentage": 9,
@@ -1491,9 +1491,9 @@ const customProducts: Product[] = [
     "brand": "Google",
     "category": "smartphones",
     "price": 779,
-    "thumbnail": "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/717Qo4MH97L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-13-pro/thumbnail.webp"
     ],
     "description": "High performance Google mobile phone with advanced camera and fast processing.",
     "discountPercentage": 5,
@@ -1506,9 +1506,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartphones",
     "price": 1336,
-    "thumbnail": "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/716H-L1AdfL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/smartphones/iphone-x/thumbnail.webp"
     ],
     "description": "High performance Samsung mobile phone with advanced camera and fast processing.",
     "discountPercentage": 9,
@@ -1521,9 +1521,9 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 1640,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 16,
@@ -1536,9 +1536,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 2664,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 17,
@@ -1551,9 +1551,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 1971,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 14,
@@ -1566,13 +1566,13 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 1089,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 7,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 70
   },
   {
@@ -1581,9 +1581,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 616,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 20,
@@ -1596,9 +1596,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 1289,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with Apple M3.",
     "discountPercentage": 5,
@@ -1611,9 +1611,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 2201,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 13,
@@ -1626,9 +1626,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 2966,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 8,
@@ -1641,9 +1641,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 1663,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 14,
@@ -1656,9 +1656,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 1263,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 14,
@@ -1671,9 +1671,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 3402,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 8,
@@ -1686,9 +1686,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 3353,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 19,
@@ -1701,9 +1701,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "laptops",
     "price": 1246,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Samsung laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 19,
@@ -1716,9 +1716,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 2828,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 11,
@@ -1731,9 +1731,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 1603,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 7,
@@ -1746,9 +1746,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 2168,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 16,
@@ -1761,9 +1761,9 @@ const customProducts: Product[] = [
     "brand": "Microsoft",
     "category": "laptops",
     "price": 1933,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Microsoft laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 11,
@@ -1776,9 +1776,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "laptops",
     "price": 2047,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Apple laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 13,
@@ -1791,9 +1791,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "laptops",
     "price": 3040,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Apple laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 15,
@@ -1806,9 +1806,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 3124,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 20,
@@ -1821,9 +1821,9 @@ const customProducts: Product[] = [
     "brand": "Microsoft",
     "category": "laptops",
     "price": 791,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Microsoft laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 13,
@@ -1836,9 +1836,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 2162,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 11,
@@ -1851,9 +1851,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 1655,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 13,
@@ -1866,13 +1866,13 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 2655,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 12,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 129
   },
   {
@@ -1881,9 +1881,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 2854,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 6,
@@ -1896,9 +1896,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 750,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 15,
@@ -1911,9 +1911,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 2717,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 15,
@@ -1926,9 +1926,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 2615,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 8,
@@ -1941,9 +1941,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 3485,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Apple M3.",
     "discountPercentage": 10,
@@ -1956,9 +1956,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 708,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 14,
@@ -1971,9 +1971,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "laptops",
     "price": 861,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Samsung laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 5,
@@ -1986,9 +1986,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 2385,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 15,
@@ -2001,9 +2001,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 1195,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 12,
@@ -2016,9 +2016,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 1314,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 9,
@@ -2031,9 +2031,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 2430,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Apple M3.",
     "discountPercentage": 8,
@@ -2046,9 +2046,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 1110,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 5,
@@ -2061,9 +2061,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "laptops",
     "price": 1650,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Samsung laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 6,
@@ -2076,9 +2076,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 869,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 20,
@@ -2091,9 +2091,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 2291,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 11,
@@ -2106,9 +2106,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 3389,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 19,
@@ -2121,9 +2121,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 2900,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 8,
@@ -2136,9 +2136,9 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 2579,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 7,
@@ -2151,9 +2151,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 2448,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 14,
@@ -2166,13 +2166,13 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 2054,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 19,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 183
   },
   {
@@ -2181,9 +2181,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 1373,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 5,
@@ -2196,9 +2196,9 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 1819,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 17,
@@ -2211,9 +2211,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "laptops",
     "price": 1438,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Apple laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 14,
@@ -2226,9 +2226,9 @@ const customProducts: Product[] = [
     "brand": "Microsoft",
     "category": "laptops",
     "price": 2885,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Microsoft laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 7,
@@ -2241,9 +2241,9 @@ const customProducts: Product[] = [
     "brand": "MSI",
     "category": "laptops",
     "price": 1955,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful MSI laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 12,
@@ -2256,9 +2256,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 2394,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 10,
@@ -2271,9 +2271,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 1534,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 12,
@@ -2286,9 +2286,9 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 1212,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 13,
@@ -2301,9 +2301,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 1140,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 17,
@@ -2316,9 +2316,9 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 862,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 13,
@@ -2331,9 +2331,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 3102,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 10,
@@ -2346,13 +2346,13 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 2728,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 11,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 30
   },
   {
@@ -2361,9 +2361,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 2631,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 12,
@@ -2376,9 +2376,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 681,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 13,
@@ -2391,9 +2391,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "laptops",
     "price": 2155,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Samsung laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 7,
@@ -2406,9 +2406,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 2661,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 15,
@@ -2421,9 +2421,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 2678,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 14,
@@ -2436,9 +2436,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 2383,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 5,
@@ -2451,9 +2451,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 1262,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 9,
@@ -2466,9 +2466,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "laptops",
     "price": 3329,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Apple laptop for gaming and productivity with Apple M3.",
     "discountPercentage": 7,
@@ -2481,9 +2481,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 654,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 14,
@@ -2496,9 +2496,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 807,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 13,
@@ -2511,9 +2511,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 2488,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Apple M3.",
     "discountPercentage": 19,
@@ -2526,9 +2526,9 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 1226,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 9,
@@ -2541,9 +2541,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "laptops",
     "price": 2470,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Samsung laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 19,
@@ -2556,9 +2556,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 3324,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 20,
@@ -2571,9 +2571,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "laptops",
     "price": 2547,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Samsung laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 14,
@@ -2586,13 +2586,13 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 1336,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 5,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 68
   },
   {
@@ -2601,9 +2601,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 3134,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 12,
@@ -2616,9 +2616,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 979,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 5,
@@ -2631,9 +2631,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 1719,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 11,
@@ -2646,9 +2646,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 2140,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 5,
@@ -2661,9 +2661,9 @@ const customProducts: Product[] = [
     "brand": "Dell",
     "category": "laptops",
     "price": 3122,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Dell laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 11,
@@ -2676,9 +2676,9 @@ const customProducts: Product[] = [
     "brand": "Microsoft",
     "category": "laptops",
     "price": 2254,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Microsoft laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 18,
@@ -2691,9 +2691,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 3277,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Apple M3.",
     "discountPercentage": 5,
@@ -2706,9 +2706,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 1176,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 19,
@@ -2721,9 +2721,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "laptops",
     "price": 2012,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Apple laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 12,
@@ -2736,9 +2736,9 @@ const customProducts: Product[] = [
     "brand": "Asus",
     "category": "laptops",
     "price": 2159,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Asus laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 5,
@@ -2751,9 +2751,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 661,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 14,
@@ -2766,9 +2766,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "laptops",
     "price": 3177,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Apple laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 16,
@@ -2781,13 +2781,13 @@ const customProducts: Product[] = [
     "brand": "MSI",
     "category": "laptops",
     "price": 2306,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful MSI laptop for gaming and productivity with Apple M3.",
     "discountPercentage": 6,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 68
   },
   {
@@ -2796,9 +2796,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 1636,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Apple M2.",
     "discountPercentage": 14,
@@ -2811,9 +2811,9 @@ const customProducts: Product[] = [
     "brand": "Lenovo",
     "category": "laptops",
     "price": 1763,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful Lenovo laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 14,
@@ -2826,9 +2826,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 825,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Apple M3.",
     "discountPercentage": 7,
@@ -2841,9 +2841,9 @@ const customProducts: Product[] = [
     "brand": "Razer",
     "category": "laptops",
     "price": 2602,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Razer laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 5,
@@ -2856,9 +2856,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 3271,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Intel i5.",
     "discountPercentage": 12,
@@ -2871,9 +2871,9 @@ const customProducts: Product[] = [
     "brand": "MSI",
     "category": "laptops",
     "price": 3224,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful MSI laptop for gaming and productivity with Intel i9.",
     "discountPercentage": 5,
@@ -2886,9 +2886,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 1724,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 15,
@@ -2901,9 +2901,9 @@ const customProducts: Product[] = [
     "brand": "MSI",
     "category": "laptops",
     "price": 2301,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful MSI laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 16,
@@ -2916,13 +2916,13 @@ const customProducts: Product[] = [
     "brand": "MSI",
     "category": "laptops",
     "price": 1065,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful MSI laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 8,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 134
   },
   {
@@ -2931,9 +2931,9 @@ const customProducts: Product[] = [
     "brand": "Microsoft",
     "category": "laptops",
     "price": 2070,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Microsoft laptop for gaming and productivity with AMD Ryzen 5.",
     "discountPercentage": 14,
@@ -2946,9 +2946,9 @@ const customProducts: Product[] = [
     "brand": "Microsoft",
     "category": "laptops",
     "price": 1390,
-    "thumbnail": "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71pC69I3lzL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp"
     ],
     "description": "Powerful Microsoft laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 12,
@@ -2961,9 +2961,9 @@ const customProducts: Product[] = [
     "brand": "HP",
     "category": "laptops",
     "price": 2945,
-    "thumbnail": "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71kK1G90P2L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp"
     ],
     "description": "Powerful HP laptop for gaming and productivity with AMD Ryzen 7.",
     "discountPercentage": 14,
@@ -2976,9 +2976,9 @@ const customProducts: Product[] = [
     "brand": "Acer",
     "category": "laptops",
     "price": 1074,
-    "thumbnail": "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71vDCEzV-eL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp"
     ],
     "description": "Powerful Acer laptop for gaming and productivity with AMD Ryzen 9.",
     "discountPercentage": 8,
@@ -2991,9 +2991,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "laptops",
     "price": 2541,
-    "thumbnail": "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp"
     ],
     "description": "Powerful Apple laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 9,
@@ -3006,9 +3006,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "laptops",
     "price": 3361,
-    "thumbnail": "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71S-XjIaHPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp"
     ],
     "description": "Powerful Apple laptop for gaming and productivity with Intel i7.",
     "discountPercentage": 8,
@@ -3021,9 +3021,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 226,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3036,9 +3036,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 57,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 11,
@@ -3051,9 +3051,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 216,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 29,
@@ -3066,9 +3066,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 188,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 14,
@@ -3081,9 +3081,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 337,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3096,9 +3096,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 274,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 30,
@@ -3111,9 +3111,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 276,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 28,
@@ -3126,9 +3126,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 223,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 26,
@@ -3141,9 +3141,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 209,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 20,
@@ -3156,9 +3156,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 123,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3171,9 +3171,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 190,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3186,9 +3186,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 182,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3201,9 +3201,9 @@ const customProducts: Product[] = [
     "brand": "Beats",
     "category": "headphones",
     "price": 314,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Beats audio experience with active noise cancellation.",
     "discountPercentage": 21,
@@ -3216,9 +3216,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 379,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 30,
@@ -3231,9 +3231,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 343,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 24,
@@ -3246,13 +3246,13 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 282,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 30,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 204
   },
   {
@@ -3261,9 +3261,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 237,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3276,9 +3276,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 357,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 12,
@@ -3291,13 +3291,13 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 131,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 25,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 135
   },
   {
@@ -3306,9 +3306,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 115,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 10,
@@ -3321,9 +3321,9 @@ const customProducts: Product[] = [
     "brand": "Beats",
     "category": "headphones",
     "price": 152,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Beats audio experience with active noise cancellation.",
     "discountPercentage": 12,
@@ -3336,9 +3336,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 270,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 26,
@@ -3351,9 +3351,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 295,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 19,
@@ -3366,9 +3366,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 221,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3381,9 +3381,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 211,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 29,
@@ -3396,9 +3396,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 210,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 15,
@@ -3411,9 +3411,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 190,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 13,
@@ -3426,9 +3426,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 195,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 17,
@@ -3441,9 +3441,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 363,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 28,
@@ -3456,9 +3456,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 190,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 12,
@@ -3471,9 +3471,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 382,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 12,
@@ -3486,9 +3486,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 283,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 18,
@@ -3501,9 +3501,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 381,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 15,
@@ -3516,9 +3516,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 240,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 30,
@@ -3531,9 +3531,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 243,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 26,
@@ -3546,9 +3546,9 @@ const customProducts: Product[] = [
     "brand": "Beats",
     "category": "headphones",
     "price": 308,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Beats audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3561,9 +3561,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 70,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 25,
@@ -3576,9 +3576,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 393,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 14,
@@ -3591,9 +3591,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 321,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3606,9 +3606,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 189,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 22,
@@ -3621,9 +3621,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 196,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 27,
@@ -3636,9 +3636,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 85,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 10,
@@ -3651,9 +3651,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 249,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 18,
@@ -3666,9 +3666,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 268,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 20,
@@ -3681,13 +3681,13 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 177,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 16,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 69
   },
   {
@@ -3696,9 +3696,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 199,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 16,
@@ -3711,9 +3711,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 208,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 11,
@@ -3726,9 +3726,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 317,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 20,
@@ -3741,9 +3741,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 290,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 13,
@@ -3756,9 +3756,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 60,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 21,
@@ -3771,9 +3771,9 @@ const customProducts: Product[] = [
     "brand": "Beats",
     "category": "headphones",
     "price": 247,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Beats audio experience with active noise cancellation.",
     "discountPercentage": 12,
@@ -3786,9 +3786,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 331,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 28,
@@ -3801,9 +3801,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 259,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 30,
@@ -3816,9 +3816,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 262,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 19,
@@ -3831,9 +3831,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 153,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 18,
@@ -3846,9 +3846,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 347,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 18,
@@ -3861,9 +3861,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 222,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 15,
@@ -3876,9 +3876,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 245,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 20,
@@ -3891,9 +3891,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 274,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3906,9 +3906,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 205,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 18,
@@ -3921,9 +3921,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 196,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 11,
@@ -3936,9 +3936,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 175,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 15,
@@ -3951,9 +3951,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 95,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 23,
@@ -3966,9 +3966,9 @@ const customProducts: Product[] = [
     "brand": "Beats",
     "category": "headphones",
     "price": 358,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Beats audio experience with active noise cancellation.",
     "discountPercentage": 16,
@@ -3981,9 +3981,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 331,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 12,
@@ -3996,9 +3996,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 150,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 12,
@@ -4011,9 +4011,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 363,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 10,
@@ -4026,9 +4026,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 137,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 27,
@@ -4041,13 +4041,13 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 151,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 14,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 198
   },
   {
@@ -4056,9 +4056,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 157,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 27,
@@ -4071,9 +4071,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 226,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 15,
@@ -4086,13 +4086,13 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 209,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 18,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 468
   },
   {
@@ -4101,9 +4101,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 82,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 24,
@@ -4116,9 +4116,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 343,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 28,
@@ -4131,9 +4131,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 81,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 24,
@@ -4146,9 +4146,9 @@ const customProducts: Product[] = [
     "brand": "Jabra",
     "category": "headphones",
     "price": 346,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Jabra audio experience with active noise cancellation.",
     "discountPercentage": 26,
@@ -4161,13 +4161,13 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 90,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 18,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 629
   },
   {
@@ -4176,9 +4176,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 133,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 13,
@@ -4191,9 +4191,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 106,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 10,
@@ -4206,9 +4206,9 @@ const customProducts: Product[] = [
     "brand": "Bose",
     "category": "headphones",
     "price": 287,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Bose audio experience with active noise cancellation.",
     "discountPercentage": 17,
@@ -4221,9 +4221,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 391,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 18,
@@ -4236,9 +4236,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 356,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 19,
@@ -4251,9 +4251,9 @@ const customProducts: Product[] = [
     "brand": "Beats",
     "category": "headphones",
     "price": 151,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Beats audio experience with active noise cancellation.",
     "discountPercentage": 10,
@@ -4266,9 +4266,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 276,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 14,
@@ -4281,9 +4281,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 70,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 17,
@@ -4296,9 +4296,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 236,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 19,
@@ -4311,9 +4311,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 260,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 28,
@@ -4326,9 +4326,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 365,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 26,
@@ -4341,9 +4341,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 143,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 24,
@@ -4356,9 +4356,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 346,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 15,
@@ -4371,9 +4371,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 357,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 27,
@@ -4386,9 +4386,9 @@ const customProducts: Product[] = [
     "brand": "Beats",
     "category": "headphones",
     "price": 234,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Beats audio experience with active noise cancellation.",
     "discountPercentage": 13,
@@ -4401,9 +4401,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 349,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 19,
@@ -4416,9 +4416,9 @@ const customProducts: Product[] = [
     "brand": "Sony",
     "category": "headphones",
     "price": 227,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sony audio experience with active noise cancellation.",
     "discountPercentage": 29,
@@ -4431,9 +4431,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 172,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 16,
@@ -4446,9 +4446,9 @@ const customProducts: Product[] = [
     "brand": "Skullcandy",
     "category": "headphones",
     "price": 104,
-    "thumbnail": "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61+sREJjNPL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Skullcandy audio experience with active noise cancellation.",
     "discountPercentage": 29,
@@ -4461,9 +4461,9 @@ const customProducts: Product[] = [
     "brand": "JBL",
     "category": "headphones",
     "price": 312,
-    "thumbnail": "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/51+e7xyBicL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium JBL audio experience with active noise cancellation.",
     "discountPercentage": 20,
@@ -4476,9 +4476,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "headphones",
     "price": 110,
-    "thumbnail": "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/71+L1zT9mVL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Apple audio experience with active noise cancellation.",
     "discountPercentage": 30,
@@ -4491,9 +4491,9 @@ const customProducts: Product[] = [
     "brand": "Marshall",
     "category": "headphones",
     "price": 157,
-    "thumbnail": "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61O9tN6-mGL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Marshall audio experience with active noise cancellation.",
     "discountPercentage": 16,
@@ -4506,9 +4506,9 @@ const customProducts: Product[] = [
     "brand": "Sennheiser",
     "category": "headphones",
     "price": 171,
-    "thumbnail": "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80",
     "images": [
-      "https://m.media-amazon.com/images/I/61vNlP7XUuL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=500&q=80"
     ],
     "description": "Premium Sennheiser audio experience with active noise cancellation.",
     "discountPercentage": 16,
@@ -4521,9 +4521,9 @@ const customProducts: Product[] = [
     "brand": "Fitbit",
     "category": "smartwatches",
     "price": 220,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fitbit watch with AMOLED display.",
     "discountPercentage": 21,
@@ -4536,13 +4536,13 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 524,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 7,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 354
   },
   {
@@ -4551,9 +4551,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 114,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 37,
@@ -4566,13 +4566,13 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 669,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 32,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 401
   },
   {
@@ -4581,9 +4581,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 150,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 37,
@@ -4596,9 +4596,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 562,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 15,
@@ -4611,9 +4611,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 453,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 11,
@@ -4626,13 +4626,13 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 300,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 21,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 396
   },
   {
@@ -4641,9 +4641,9 @@ const customProducts: Product[] = [
     "brand": "Fitbit",
     "category": "smartwatches",
     "price": 494,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fitbit watch with AMOLED display.",
     "discountPercentage": 29,
@@ -4656,9 +4656,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 189,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 31,
@@ -4671,9 +4671,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 549,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 11,
@@ -4686,9 +4686,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 733,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 10,
@@ -4701,9 +4701,9 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 156,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 9,
@@ -4716,9 +4716,9 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 653,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 7,
@@ -4731,13 +4731,13 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 393,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 11,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 301
   },
   {
@@ -4746,9 +4746,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 118,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 8,
@@ -4761,9 +4761,9 @@ const customProducts: Product[] = [
     "brand": "Fitbit",
     "category": "smartwatches",
     "price": 198,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fitbit watch with AMOLED display.",
     "discountPercentage": 34,
@@ -4776,9 +4776,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 274,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 18,
@@ -4791,9 +4791,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 103,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 16,
@@ -4806,9 +4806,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 578,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 31,
@@ -4821,9 +4821,9 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 512,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 36,
@@ -4836,9 +4836,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 453,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 31,
@@ -4851,9 +4851,9 @@ const customProducts: Product[] = [
     "brand": "Huawei",
     "category": "smartwatches",
     "price": 729,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Huawei watch with AMOLED display.",
     "discountPercentage": 9,
@@ -4866,9 +4866,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 443,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 40,
@@ -4881,9 +4881,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 485,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 14,
@@ -4896,9 +4896,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 313,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 12,
@@ -4911,9 +4911,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 766,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 14,
@@ -4926,9 +4926,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 784,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 31,
@@ -4941,9 +4941,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 367,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 13,
@@ -4956,9 +4956,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 396,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 22,
@@ -4971,9 +4971,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 396,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 14,
@@ -4986,9 +4986,9 @@ const customProducts: Product[] = [
     "brand": "Huawei",
     "category": "smartwatches",
     "price": 220,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Huawei watch with AMOLED display.",
     "discountPercentage": 15,
@@ -5001,9 +5001,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 370,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 25,
@@ -5016,9 +5016,9 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 149,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 38,
@@ -5031,13 +5031,13 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 213,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 32,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 272
   },
   {
@@ -5046,9 +5046,9 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 578,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 19,
@@ -5061,9 +5061,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 150,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 12,
@@ -5076,9 +5076,9 @@ const customProducts: Product[] = [
     "brand": "Fitbit",
     "category": "smartwatches",
     "price": 126,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fitbit watch with AMOLED display.",
     "discountPercentage": 27,
@@ -5091,9 +5091,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 735,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 28,
@@ -5106,9 +5106,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 391,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 25,
@@ -5121,9 +5121,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 542,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 14,
@@ -5136,13 +5136,13 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 483,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 23,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 185
   },
   {
@@ -5151,9 +5151,9 @@ const customProducts: Product[] = [
     "brand": "Fitbit",
     "category": "smartwatches",
     "price": 794,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fitbit watch with AMOLED display.",
     "discountPercentage": 13,
@@ -5166,9 +5166,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 444,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 37,
@@ -5181,9 +5181,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 260,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 33,
@@ -5196,9 +5196,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 455,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 18,
@@ -5211,9 +5211,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 712,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 34,
@@ -5226,9 +5226,9 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 165,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 14,
@@ -5241,9 +5241,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 421,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 9,
@@ -5256,9 +5256,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 323,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 32,
@@ -5271,9 +5271,9 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 682,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 38,
@@ -5286,9 +5286,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 227,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 5,
@@ -5301,9 +5301,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 133,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 16,
@@ -5316,13 +5316,13 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 174,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 28,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 479
   },
   {
@@ -5331,9 +5331,9 @@ const customProducts: Product[] = [
     "brand": "Huawei",
     "category": "smartwatches",
     "price": 279,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Huawei watch with AMOLED display.",
     "discountPercentage": 33,
@@ -5346,9 +5346,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 778,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 39,
@@ -5361,9 +5361,9 @@ const customProducts: Product[] = [
     "brand": "Fitbit",
     "category": "smartwatches",
     "price": 670,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fitbit watch with AMOLED display.",
     "discountPercentage": 34,
@@ -5376,9 +5376,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 497,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 6,
@@ -5391,13 +5391,13 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 676,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 10,
-    "rating": 4.0,
+    "rating": 4,
     "stock": 316
   },
   {
@@ -5406,9 +5406,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 394,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 32,
@@ -5421,9 +5421,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 476,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 19,
@@ -5436,13 +5436,13 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 440,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 15,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 61
   },
   {
@@ -5451,9 +5451,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 347,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 10,
@@ -5466,9 +5466,9 @@ const customProducts: Product[] = [
     "brand": "Huawei",
     "category": "smartwatches",
     "price": 489,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Huawei watch with AMOLED display.",
     "discountPercentage": 37,
@@ -5481,9 +5481,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 644,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 37,
@@ -5496,9 +5496,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 218,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 15,
@@ -5511,9 +5511,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 612,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 37,
@@ -5526,9 +5526,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 141,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 34,
@@ -5541,9 +5541,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 734,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 39,
@@ -5556,9 +5556,9 @@ const customProducts: Product[] = [
     "brand": "Garmin",
     "category": "smartwatches",
     "price": 126,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Garmin watch with AMOLED display.",
     "discountPercentage": 29,
@@ -5571,9 +5571,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 489,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 11,
@@ -5586,9 +5586,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 377,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 11,
@@ -5601,9 +5601,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 409,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 26,
@@ -5616,9 +5616,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 420,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 8,
@@ -5631,9 +5631,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 321,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 18,
@@ -5646,9 +5646,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 769,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 7,
@@ -5661,9 +5661,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 443,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 24,
@@ -5676,9 +5676,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 426,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 35,
@@ -5691,9 +5691,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 494,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 11,
@@ -5706,9 +5706,9 @@ const customProducts: Product[] = [
     "brand": "Fitbit",
     "category": "smartwatches",
     "price": 450,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fitbit watch with AMOLED display.",
     "discountPercentage": 40,
@@ -5721,9 +5721,9 @@ const customProducts: Product[] = [
     "brand": "Fossil",
     "category": "smartwatches",
     "price": 466,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fossil watch with AMOLED display.",
     "discountPercentage": 33,
@@ -5736,9 +5736,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 652,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 35,
@@ -5751,13 +5751,13 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 406,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 25,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 560
   },
   {
@@ -5766,9 +5766,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 598,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 6,
@@ -5781,9 +5781,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 705,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 8,
@@ -5796,9 +5796,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 396,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 6,
@@ -5811,9 +5811,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 796,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 25,
@@ -5826,9 +5826,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 563,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 7,
@@ -5841,9 +5841,9 @@ const customProducts: Product[] = [
     "brand": "Noise",
     "category": "smartwatches",
     "price": 209,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Noise watch with AMOLED display.",
     "discountPercentage": 5,
@@ -5856,9 +5856,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 721,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 38,
@@ -5871,13 +5871,13 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 600,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 13,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 247
   },
   {
@@ -5886,9 +5886,9 @@ const customProducts: Product[] = [
     "brand": "Amazfit",
     "category": "smartwatches",
     "price": 390,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/iwc-ingenieur-automatic-steel/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Amazfit watch with AMOLED display.",
     "discountPercentage": 21,
@@ -5901,9 +5901,9 @@ const customProducts: Product[] = [
     "brand": "Huawei",
     "category": "smartwatches",
     "price": 151,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Huawei watch with AMOLED display.",
     "discountPercentage": 15,
@@ -5916,9 +5916,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 661,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/rolex-datejust-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 8,
@@ -5931,9 +5931,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 362,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/watch-gold-for-women/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 36,
@@ -5946,9 +5946,9 @@ const customProducts: Product[] = [
     "brand": "Apple",
     "category": "smartwatches",
     "price": 449,
-    "thumbnail": "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/81xXDsT7b0L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/womens-watches/women's-wrist-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Apple watch with AMOLED display.",
     "discountPercentage": 17,
@@ -5961,9 +5961,9 @@ const customProducts: Product[] = [
     "brand": "Samsung",
     "category": "smartwatches",
     "price": 269,
-    "thumbnail": "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61Uv5X0+T-L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Samsung watch with AMOLED display.",
     "discountPercentage": 38,
@@ -5976,13 +5976,13 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 308,
-    "thumbnail": "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/71XkO1E5N8L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 38,
-    "rating": 5.0,
+    "rating": 5,
     "stock": 204
   },
   {
@@ -5991,9 +5991,9 @@ const customProducts: Product[] = [
     "brand": "Fitbit",
     "category": "smartwatches",
     "price": 418,
-    "thumbnail": "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61oJvI7R6WL._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp"
     ],
     "description": "Smart fitness tracking Fitbit watch with AMOLED display.",
     "discountPercentage": 8,
@@ -6006,9 +6006,9 @@ const customProducts: Product[] = [
     "brand": "boAt",
     "category": "smartwatches",
     "price": 154,
-    "thumbnail": "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg",
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
     "images": [
-      "https://m.media-amazon.com/images/I/61pZ+5LzL+L._AC_UY327_FMwebp_QL65_.jpg"
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp"
     ],
     "description": "Smart fitness tracking boAt watch with AMOLED display.",
     "discountPercentage": 22,
