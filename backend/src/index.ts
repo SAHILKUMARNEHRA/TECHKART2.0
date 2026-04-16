@@ -6,7 +6,6 @@ import { env } from './env'
 import { dbInit, dbPing } from './db'
 import { getMe, googleCallbackSuccess, postLogin, postLogout, postRegister, requireAuth, setupGoogleAuth } from './auth'
 import { getProductById, getProducts } from './products'
-import { ebaySearch, isEbayEnabled } from './ebay'
 import { deleteAddress, getAddresses, postAddress } from './addresses'
 import { getOrderById, getOrders, postOrder } from './orders'
 
@@ -56,25 +55,6 @@ async function main() {
   app.get('/api/orders', requireAuth(), getOrders)
   app.get('/api/orders/:id', requireAuth(), getOrderById)
   app.post('/api/orders', requireAuth(), postOrder)
-
-  app.get('/api/ebay/search', async (req, res) => {
-    if (!isEbayEnabled()) {
-      res.status(503).json({ message: 'eBay not configured' })
-      return
-    }
-    const q = String(req.query.q ?? '').trim()
-    const techCategory = String(req.query.techCategory ?? '').trim()
-    if (!q) {
-      res.status(400).json({ message: 'Missing q' })
-      return
-    }
-    try {
-      const items = await ebaySearch({ q, techCategory: techCategory || undefined, limit: 6 })
-      res.json({ items })
-    } catch {
-      res.status(502).json({ message: 'eBay request failed' })
-    }
-  })
 
   app.listen(env.API_PORT, () => {
     console.log(`TechKart API listening on http://localhost:${env.API_PORT}`)

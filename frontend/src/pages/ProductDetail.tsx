@@ -16,7 +16,6 @@ import { formatInr, toInrFromUsd } from '@/utils/money'
 import { getOrCreatePriceHistory, summarizeHistory } from '@/utils/priceHistory'
 import { getReviewCount } from '@/utils/reviews'
 import { getTechCategoryFromSlug, techCategoryLabel } from '@/utils/techCategory'
-import { apiEbaySearch, type EbayItem } from '@/api/ebay'
 
 function mockReviews(productId: number) {
   const names = ['Aarav', 'Diya', 'Kabir', 'Meera', 'Ishaan', 'Anaya']
@@ -59,9 +58,7 @@ export default function ProductDetail() {
   const discounted = product ? Math.round(priceInr * (1 - product.discountPercentage / 100)) : 0
 
   const [historyDays, setHistoryDays] = useState<30 | 90>(30)
-  const [ebayItems, setEbayItems] = useState<EbayItem[] | null>(null)
   const history = useMemo(() => {
-    if (!product) return []
     if (!product) return []
     const points = getOrCreatePriceHistory(product.id, discounted)
     return historyDays === 30 ? points.slice(-30) : points
@@ -118,25 +115,6 @@ export default function ProductDetail() {
   const totalReviews = getReviewCount(product.id)
   const reviews = mockReviews(product.id)
   const isCompareBlocked = !compareSelected && !!compareCategory && techCategory !== compareCategory
-
-  useEffect(() => {
-    let active = true
-    setEbayItems(null)
-    ;(async () => {
-      try {
-        const items = await apiEbaySearch({
-          q: `${product.title} ${product.brand}`,
-          techCategory: techCategory ?? undefined,
-        })
-        if (active) setEbayItems(items)
-      } catch {
-        if (active) setEbayItems([])
-      }
-    })()
-    return () => {
-      active = false
-    }
-  }, [product.brand, product.title, techCategory])
 
   return (
     <div className="space-y-8">
@@ -330,47 +308,6 @@ export default function ProductDetail() {
                   <div className="mt-3 text-sm text-slate-700">{r.text}</div>
                 </div>
               ))}
-            </div>
-          </div>
-
-          <div className="rounded-3xl border border-tk-border bg-white/60 p-6 shadow-soft backdrop-blur-sm">
-            <div className="flex items-center justify-between gap-3">
-              <div className="font-display text-lg font-semibold text-slate-900">eBay Prices</div>
-              <div className="text-xs text-slate-500">External listings</div>
-            </div>
-            <div className="mt-4 grid gap-3">
-              {ebayItems === null ? (
-                <>
-                  <Skeleton className="h-16 w-full rounded-2xl" />
-                  <Skeleton className="h-16 w-full rounded-2xl" />
-                </>
-              ) : ebayItems.length === 0 ? (
-                <div className="rounded-2xl border border-tk-border bg-white/70 p-4 text-sm text-slate-600 shadow-sm">
-                  No listings found (or eBay API not configured).
-                </div>
-              ) : (
-                ebayItems.slice(0, 4).map((it) => (
-                  <a
-                    key={`${it.title}-${it.url}`}
-                    href={it.url ?? '#'}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-3 rounded-2xl border border-tk-border bg-white/70 p-4 shadow-sm transition hover:bg-white hover:shadow-md"
-                  >
-                    <div className="h-12 w-12 flex-none overflow-hidden rounded-xl bg-white">
-                      {it.image ? <img src={it.image} alt={it.title} className="h-full w-full object-contain p-2" /> : null}
-                    </div>
-                    <div className="min-w-0 flex-1">
-                      <div className="tk-clamp-2 text-sm font-semibold text-slate-900">{it.title}</div>
-                      <div className="mt-1 flex flex-wrap items-center gap-2 text-xs text-slate-600">
-                        {it.price ? <span className="font-semibold text-slate-800">{it.price}</span> : null}
-                        {it.condition ? <span className="rounded-full bg-slate-900/5 px-2 py-0.5 font-semibold">{it.condition}</span> : null}
-                      </div>
-                    </div>
-                    <div className="text-xs font-semibold text-blue-700">Open</div>
-                  </a>
-                ))
-              )}
             </div>
           </div>
         </div>
