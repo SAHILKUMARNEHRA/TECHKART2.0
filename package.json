@@ -7,11 +7,11 @@
     "backend"
   ],
   "scripts": {
-    "dev": "concurrently -n web,api -c \"#2563eb,#0f172a\" \"npm -w frontend run dev\" \"npm -w backend run dev\"",
-    "build": "npm -w backend run build && npm -w frontend run build",
-    "preview": "npm -w frontend run preview",
-    "lint": "npm -w frontend run lint",
-    "check": "npm -w frontend run check && npm -w backend run check"
+    "dev": "concurrently -n web,api -c \"#2563eb,#0f172a\" \"npm -w ./frontend run dev\" \"npm -w ./backend run dev\"",
+    "build": "npm -w ./backend run build && npm -w ./frontend run build",
+    "preview": "npm -w ./frontend run preview",
+    "lint": "npm -w ./frontend run lint",
+    "check": "npm -w ./frontend run check && npm -w ./backend run check"
   },
   "devDependencies": {
     "concurrently": "^9.0.1"

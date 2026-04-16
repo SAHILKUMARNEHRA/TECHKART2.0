@@ -34,6 +34,13 @@ export default function ProductCard({ product }: { product: Product }) {
           src={product.thumbnail}
           alt={product.title}
           loading="lazy"
+          decoding="async"
+          referrerPolicy="no-referrer"
+          onError={(e) => {
+            const el = e.currentTarget
+            if (el.src.endsWith('/product-fallback.svg')) return
+            el.src = '/product-fallback.svg'
+          }}
           className="h-full w-full object-contain p-6 transition duration-300 group-hover:scale-[1.04]"
         />
         {isBestChoice(product) ? (
