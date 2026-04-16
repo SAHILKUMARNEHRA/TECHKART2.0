@@ -1,5 +1,4 @@
 import type { Request, Response } from 'express'
-import axios from 'axios'
 
 export type Product = {
   id: number
@@ -15,554 +14,915 @@ export type Product = {
   images: string[]
 }
 
-type ProductsResponse = {
-  products: Product[]
-  total: number
-  skip: number
-  limit: number
-}
-
 const customProducts: Product[] = [
-  // Smartphones
   {
-    id: 1001,
-    title: 'Apple iPhone 15 Pro Max',
-    description: 'The ultimate iPhone featuring aerospace-grade titanium, A17 Pro chip, and the most advanced Pro camera system ever.',
-    price: 1199,
-    discountPercentage: 5,
-    rating: 4.9,
-    stock: 120,
-    brand: 'Apple',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-15-pro-max.jpg']
+    "title": "Apple iPhone 15 Pro Max",
+    "brand": "Apple",
+    "price": 1199,
+    "id": 1001,
+    "category": "smartphones",
+    "description": "Latest Apple smartphone with incredible features.",
+    "discountPercentage": 12,
+    "rating": 4.9,
+    "stock": 136,
+    "thumbnail": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1002,
-    title: 'Samsung Galaxy S24 Ultra',
-    description: 'Galaxy AI is here. Welcome to the era of mobile AI. With Galaxy S24 Ultra in your hands, you can unleash whole new levels of creativity.',
-    price: 1299,
-    discountPercentage: 8,
-    rating: 4.8,
-    stock: 85,
-    brand: 'Samsung',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra-5g-sm-s928-1.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra-5g-sm-s928-1.jpg']
+    "title": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "price": 1299,
+    "id": 1002,
+    "category": "smartphones",
+    "description": "Latest Samsung smartphone with incredible features.",
+    "discountPercentage": 11,
+    "rating": 4.5,
+    "stock": 180,
+    "thumbnail": "https://images.unsplash.com/photo-1598327105650-80327663e2c6?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1598327105650-80327663e2c6?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1003,
-    title: 'Google Pixel 8 Pro',
-    description: 'The best of Google AI. Powerful Tensor G3 chip, advanced cameras, and 7 years of OS updates.',
-    price: 999,
-    discountPercentage: 10,
-    rating: 4.7,
-    stock: 150,
-    brand: 'Google',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8-pro.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/google-pixel-8-pro.jpg']
+    "title": "Google Pixel 8 Pro",
+    "brand": "Google",
+    "price": 999,
+    "id": 1003,
+    "category": "smartphones",
+    "description": "Latest Google smartphone with incredible features.",
+    "discountPercentage": 5,
+    "rating": 4.9,
+    "stock": 70,
+    "thumbnail": "https://images.unsplash.com/photo-1533228100840-081b3af53203?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1533228100840-081b3af53203?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1004,
-    title: 'OnePlus 12',
-    description: 'Smooth Beyond Belief. Snapdragon 8 Gen 3, Hasselblad Camera for Mobile, and ultra-fast charging.',
-    price: 799,
-    discountPercentage: 6,
-    rating: 4.6,
-    stock: 200,
-    brand: 'OnePlus',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/oneplus-12.jpg']
+    "title": "OnePlus 12",
+    "brand": "OnePlus",
+    "price": 799,
+    "id": 1004,
+    "category": "smartphones",
+    "description": "Latest OnePlus smartphone with incredible features.",
+    "discountPercentage": 9,
+    "rating": 4.6,
+    "stock": 189,
+    "thumbnail": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1005,
-    title: 'Xiaomi 14 Ultra',
-    description: 'Co-engineered with Leica. Professional-grade quad camera system and stunning AMOLED display.',
-    price: 1099,
-    discountPercentage: 12,
-    rating: 4.7,
-    stock: 90,
-    brand: 'Xiaomi',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14-ultra.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/xiaomi-14-ultra.jpg']
+    "title": "Xiaomi 14 Ultra",
+    "brand": "Xiaomi",
+    "price": 1099,
+    "id": 1005,
+    "category": "smartphones",
+    "description": "Latest Xiaomi smartphone with incredible features.",
+    "discountPercentage": 9,
+    "rating": 4.6,
+    "stock": 214,
+    "thumbnail": "https://images.unsplash.com/photo-1523206489230-c6224d4bef95?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1523206489230-c6224d4bef95?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1006,
-    title: 'Sony Xperia 1 V',
-    description: 'Professional camera technology in a smartphone. Features a next-gen Exmor T mobile sensor.',
-    price: 1399,
-    discountPercentage: 4,
-    rating: 4.5,
-    stock: 45,
-    brand: 'Sony',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-1-v.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/sony-xperia-1-v.jpg']
+    "title": "Sony Xperia 1 V",
+    "brand": "Sony",
+    "price": 1399,
+    "id": 1006,
+    "category": "smartphones",
+    "description": "Latest Sony smartphone with incredible features.",
+    "discountPercentage": 0,
+    "rating": 4.6,
+    "stock": 162,
+    "thumbnail": "https://images.unsplash.com/photo-1575037614876-c385124f5a3e?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1575037614876-c385124f5a3e?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1007,
-    title: 'Samsung Galaxy Z Fold 5',
-    description: 'The ultimate foldable experience. Multitask like a pro with a massive inner screen.',
-    price: 1799,
-    discountPercentage: 15,
-    rating: 4.8,
-    stock: 60,
-    brand: 'Samsung',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold5-5g.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-z-fold5-5g.jpg']
+    "title": "Samsung Galaxy Z Fold 5",
+    "brand": "Samsung",
+    "price": 1799,
+    "id": 1007,
+    "category": "smartphones",
+    "description": "Latest Samsung smartphone with incredible features.",
+    "discountPercentage": 6,
+    "rating": 4.6,
+    "stock": 151,
+    "thumbnail": "https://images.unsplash.com/photo-1556656793-89a4c47d7c67?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1556656793-89a4c47d7c67?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1008,
-    title: 'Nothing Phone (2)',
-    description: 'Iconic transparent design with Glyph Interface. Powered by Snapdragon 8+ Gen 1.',
-    price: 599,
-    discountPercentage: 8,
-    rating: 4.5,
-    stock: 300,
-    brand: 'Nothing',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/nothing-phone2.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/nothing-phone2.jpg']
+    "title": "Nothing Phone (2)",
+    "brand": "Nothing",
+    "price": 599,
+    "id": 1008,
+    "category": "smartphones",
+    "description": "Latest Nothing smartphone with incredible features.",
+    "discountPercentage": 11,
+    "rating": 4.6,
+    "stock": 91,
+    "thumbnail": "https://images.unsplash.com/photo-1601784551446-20c9e07cdbc0?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1601784551446-20c9e07cdbc0?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1009,
-    title: 'Asus ROG Phone 8 Pro',
-    description: 'The ultimate gaming phone. Unmatched cooling, massive battery, and gaming triggers.',
-    price: 1199,
-    discountPercentage: 5,
-    rating: 4.7,
-    stock: 75,
-    brand: 'Asus',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-8-pro.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/asus-rog-phone-8-pro.jpg']
+    "title": "Asus ROG Phone 8 Pro",
+    "brand": "Asus",
+    "price": 1199,
+    "id": 1009,
+    "category": "smartphones",
+    "description": "Latest Asus smartphone with incredible features.",
+    "discountPercentage": 7,
+    "rating": 4.9,
+    "stock": 150,
+    "thumbnail": "https://images.unsplash.com/photo-1585060544812-6b45742c222c?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585060544812-6b45742c222c?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 1010,
-    title: 'Motorola Edge 50 Pro',
-    description: 'Beautifully crafted with Pantone validated colors and a gorgeous curved display.',
-    price: 699,
-    discountPercentage: 10,
-    rating: 4.4,
-    stock: 120,
-    brand: 'Motorola',
-    category: 'smartphones',
-    thumbnail: 'https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-pro.jpg',
-    images: ['https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-pro.jpg']
-  },
-
-  // Laptops
-  {
-    id: 2001,
-    title: 'Apple MacBook Pro 16" (M3 Max)',
-    description: 'Mind-blowing. Head-turning. The most advanced Mac ever with M3 Max chip.',
-    price: 3499,
-    discountPercentage: 0,
-    rating: 4.9,
-    stock: 40,
-    brand: 'Apple',
-    category: 'laptops',
-    thumbnail: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1698169223815',
-    images: ['https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spaceblack-select-202310?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1698169223815']
+    "title": "Motorola Edge 50 Pro",
+    "brand": "Motorola",
+    "price": 699,
+    "id": 1010,
+    "category": "smartphones",
+    "description": "Latest Motorola smartphone with incredible features.",
+    "discountPercentage": 2,
+    "rating": 4.6,
+    "stock": 210,
+    "thumbnail": "https://images.unsplash.com/photo-1505156868547-9b1e7fd040ce?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1505156868547-9b1e7fd040ce?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2002,
-    title: 'Dell XPS 14',
-    description: 'A perfect balance of power and portability, featuring Intel Core Ultra processors.',
-    price: 1699,
-    discountPercentage: 10,
-    rating: 4.7,
-    stock: 85,
-    brand: 'Dell',
-    category: 'laptops',
-    thumbnail: 'https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/14-9440/media-gallery/silver/touch/notebook-xps-14-9440-t-slv-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=536&qlt=100,1&resMode=sharp2&size=536,402&chrss=full',
-    images: ['https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/14-9440/media-gallery/silver/touch/notebook-xps-14-9440-t-slv-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=536&qlt=100,1&resMode=sharp2&size=536,402&chrss=full']
+    "title": "Apple iPhone 14 Pro",
+    "brand": "Apple",
+    "price": 999,
+    "id": 1011,
+    "category": "smartphones",
+    "description": "Latest Apple smartphone with incredible features.",
+    "discountPercentage": 0,
+    "rating": 4.6,
+    "stock": 191,
+    "thumbnail": "https://images.unsplash.com/photo-1592840496152-09559c5d0186?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1592840496152-09559c5d0186?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2003,
-    title: 'Lenovo ThinkPad X1 Carbon Gen 12',
-    description: 'Premium business laptop with aerospace-grade carbon fiber and all-day battery life.',
-    price: 1899,
-    discountPercentage: 15,
-    rating: 4.8,
-    stock: 110,
-    brand: 'Lenovo',
-    category: 'laptops',
-    thumbnail: 'https://p1-ofp.static.pub//fes/cms/2024/02/21/j5p9v87z57w1c9v6q2l5f9k4s8m0h1493035.png',
-    images: ['https://p1-ofp.static.pub//fes/cms/2024/02/21/j5p9v87z57w1c9v6q2l5f9k4s8m0h1493035.png']
+    "title": "Samsung Galaxy A55 5G",
+    "brand": "Samsung",
+    "price": 499,
+    "id": 1012,
+    "category": "smartphones",
+    "description": "Latest Samsung smartphone with incredible features.",
+    "discountPercentage": 14,
+    "rating": 4.8,
+    "stock": 141,
+    "thumbnail": "https://images.unsplash.com/photo-1610945415250-71716e255f02?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1610945415250-71716e255f02?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2004,
-    title: 'ASUS ROG Zephyrus G14 (2024)',
-    description: 'Ultra-sleek gaming powerhouse with an OLED display and RTX 40-series graphics.',
-    price: 1599,
-    discountPercentage: 5,
-    rating: 4.8,
-    stock: 65,
-    brand: 'Asus',
-    category: 'laptops',
-    thumbnail: 'https://dlcdnwebimgs.asus.com/gain/9C22B43D-4F18-479D-A33A-E6E60706F79F/w250',
-    images: ['https://dlcdnwebimgs.asus.com/gain/9C22B43D-4F18-479D-A33A-E6E60706F79F/w250']
+    "title": "Vivo X100 Pro",
+    "brand": "Vivo",
+    "price": 899,
+    "id": 1013,
+    "category": "smartphones",
+    "description": "Latest Vivo smartphone with incredible features.",
+    "discountPercentage": 9,
+    "rating": 4.6,
+    "stock": 210,
+    "thumbnail": "https://images.unsplash.com/photo-1512499616203-b5af07db8ce5?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1512499616203-b5af07db8ce5?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2005,
-    title: 'Apple MacBook Air 15" (M3)',
-    description: 'Supercharged by M3. Lean. Mean. M3 machine. With a stunning 15-inch Liquid Retina display.',
-    price: 1299,
-    discountPercentage: 0,
-    rating: 4.9,
-    stock: 200,
-    brand: 'Apple',
-    category: 'laptops',
-    thumbnail: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1684518479433',
-    images: ['https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mba15-midnight-select-202306?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1684518479433']
+    "title": "iQOO 12 5G",
+    "brand": "iQOO",
+    "price": 649,
+    "id": 1014,
+    "category": "smartphones",
+    "description": "Latest iQOO smartphone with incredible features.",
+    "discountPercentage": 2,
+    "rating": 4.8,
+    "stock": 199,
+    "thumbnail": "https://images.unsplash.com/photo-1580933924726-5b4d455e378c?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1580933924726-5b4d455e378c?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2006,
-    title: 'HP Spectre x360 14',
-    description: 'Versatile 2-in-1 laptop with stunning OLED display and premium craftsmanship.',
-    price: 1499,
-    discountPercentage: 12,
-    rating: 4.6,
-    stock: 90,
-    brand: 'HP',
-    category: 'laptops',
-    thumbnail: 'https://ssl-product-images.www8-hp.com/digmedialib/prodimg/mut_assets/cg_400x400/c08920173.png',
-    images: ['https://ssl-product-images.www8-hp.com/digmedialib/prodimg/mut_assets/cg_400x400/c08920173.png']
+    "title": "Realme 12 Pro+",
+    "brand": "Realme",
+    "price": 499,
+    "id": 1015,
+    "category": "smartphones",
+    "description": "Latest Realme smartphone with incredible features.",
+    "discountPercentage": 10,
+    "rating": 4.8,
+    "stock": 230,
+    "thumbnail": "https://images.unsplash.com/photo-1603791244033-912a2dfcbf79?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1603791244033-912a2dfcbf79?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2007,
-    title: 'Razer Blade 16',
-    description: 'Desktop-grade performance in a laptop chassis. Features the world\'s first dual-mode Mini-LED display.',
-    price: 2999,
-    discountPercentage: 0,
-    rating: 4.7,
-    stock: 30,
-    brand: 'Razer',
-    category: 'laptops',
-    thumbnail: 'https://assets3.razerzone.com/p0k5A8P3u9sD3r2H0k6G4x5y1bE=/300x300/https%3A%2F%2Fhybrismediacp.razerzone.com%2Fsys_master%2Froot%2Fh9a%2Fh6a%2F9676643205150%2Frazer-blade-16-2024-mercury-500x500.png',
-    images: ['https://assets3.razerzone.com/p0k5A8P3u9sD3r2H0k6G4x5y1bE=/300x300/https%3A%2F%2Fhybrismediacp.razerzone.com%2Fsys_master%2Froot%2Fh9a%2Fh6a%2F9676643205150%2Frazer-blade-16-2024-mercury-500x500.png']
+    "title": "Apple MacBook Pro 16\" (M3 Max)",
+    "brand": "Apple",
+    "price": 3499,
+    "id": 2001,
+    "category": "laptops",
+    "description": "Powerful Apple laptop for productivity and gaming.",
+    "discountPercentage": 1,
+    "rating": 4.7,
+    "stock": 117,
+    "thumbnail": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2008,
-    title: 'Microsoft Surface Laptop 7',
-    description: 'Copilot+ PC featuring Snapdragon X Elite for incredible battery life and AI capabilities.',
-    price: 1199,
-    discountPercentage: 5,
-    rating: 4.5,
-    stock: 150,
-    brand: 'Microsoft',
-    category: 'laptops',
-    thumbnail: 'https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW1k0GZ?ver=9c4a',
-    images: ['https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW1k0GZ?ver=9c4a']
+    "title": "Dell XPS 14",
+    "brand": "Dell",
+    "price": 1699,
+    "id": 2002,
+    "category": "laptops",
+    "description": "Powerful Dell laptop for productivity and gaming.",
+    "discountPercentage": 7,
+    "rating": 4.8,
+    "stock": 242,
+    "thumbnail": "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2009,
-    title: 'LG Gram 14',
-    description: 'Incredibly lightweight and powerful. Weighs under 1kg with a gorgeous IPS display.',
-    price: 1299,
-    discountPercentage: 15,
-    rating: 4.6,
-    stock: 70,
-    brand: 'LG',
-    category: 'laptops',
-    thumbnail: 'https://www.lg.com/us/images/laptops/md06253456/gallery/desktop-01.jpg',
-    images: ['https://www.lg.com/us/images/laptops/md06253456/gallery/desktop-01.jpg']
+    "title": "Lenovo ThinkPad X1 Carbon Gen 12",
+    "brand": "Lenovo",
+    "price": 1899,
+    "id": 2003,
+    "category": "laptops",
+    "description": "Powerful Lenovo laptop for productivity and gaming.",
+    "discountPercentage": 1,
+    "rating": 4.5,
+    "stock": 75,
+    "thumbnail": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 2010,
-    title: 'Acer Zenbook S 13 OLED',
-    description: 'Ultraportable design with an exceptional OLED screen and long-lasting battery.',
-    price: 1099,
-    discountPercentage: 8,
-    rating: 4.7,
-    stock: 100,
-    brand: 'Acer',
-    category: 'laptops',
-    thumbnail: 'https://dlcdnwebimgs.asus.com/gain/F3C1853B-3286-4554-94E5-3ED5F78A8DBB/w250',
-    images: ['https://dlcdnwebimgs.asus.com/gain/F3C1853B-3286-4554-94E5-3ED5F78A8DBB/w250']
-  },
-
-  // Tablets
-  {
-    id: 3001,
-    title: 'Apple iPad Pro 13" (M4)',
-    description: 'Outrageous performance. Incredibly thin. Featuring the groundbreaking Ultra Retina XDR display.',
-    price: 1299,
-    discountPercentage: 0,
-    rating: 4.9,
-    stock: 150,
-    brand: 'Apple',
-    category: 'tablets',
-    thumbnail: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-13-select-wifi-spaceblack-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1713308273620',
-    images: ['https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-13-select-wifi-spaceblack-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1713308273620']
+    "title": "ASUS ROG Zephyrus G14 (2024)",
+    "brand": "Asus",
+    "price": 1599,
+    "id": 2004,
+    "category": "laptops",
+    "description": "Powerful Asus laptop for productivity and gaming.",
+    "discountPercentage": 0,
+    "rating": 4.6,
+    "stock": 90,
+    "thumbnail": "https://images.unsplash.com/photo-1531297122-e12aec1425e4?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1531297122-e12aec1425e4?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3002,
-    title: 'Samsung Galaxy Tab S9 Ultra',
-    description: 'The largest Dynamic AMOLED 2X display. IP68 water and dust resistant. S Pen included.',
-    price: 1199,
-    discountPercentage: 10,
-    rating: 4.8,
-    stock: 80,
-    brand: 'Samsung',
-    category: 'tablets',
-    thumbnail: 'https://images.samsung.com/is/image/samsung/p6pim/in/sm-x910nzaeinu/gallery/in-galaxy-tab-s9-ultra-wifi-x910-sm-x910nzaeinu-537827827?$650_519_PNG$',
-    images: ['https://images.samsung.com/is/image/samsung/p6pim/in/sm-x910nzaeinu/gallery/in-galaxy-tab-s9-ultra-wifi-x910-sm-x910nzaeinu-537827827?$650_519_PNG$']
+    "title": "Apple MacBook Air 15\" (M3)",
+    "brand": "Apple",
+    "price": 1299,
+    "id": 2005,
+    "category": "laptops",
+    "description": "Powerful Apple laptop for productivity and gaming.",
+    "discountPercentage": 11,
+    "rating": 4.8,
+    "stock": 107,
+    "thumbnail": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3003,
-    title: 'Apple iPad Air 11" (M2)',
-    description: 'Supercharged by M2. Landscape front camera. Beautiful Liquid Retina display.',
-    price: 599,
-    discountPercentage: 5,
-    rating: 4.8,
-    stock: 250,
-    brand: 'Apple',
-    category: 'tablets',
-    thumbnail: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-11-select-wifi-blue-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1713306894082',
-    images: ['https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-11-select-wifi-blue-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1713306894082']
+    "title": "HP Spectre x360 14",
+    "brand": "HP",
+    "price": 1499,
+    "id": 2006,
+    "category": "laptops",
+    "description": "Powerful HP laptop for productivity and gaming.",
+    "discountPercentage": 5,
+    "rating": 4.8,
+    "stock": 81,
+    "thumbnail": "https://images.unsplash.com/photo-1541807084-5e66085a2109?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1541807084-5e66085a2109?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3004,
-    title: 'Google Pixel Tablet',
-    description: 'The tablet that\'s always ready to help, and doubles as a smart display with the Charging Speaker Dock.',
-    price: 499,
-    discountPercentage: 15,
-    rating: 4.5,
-    stock: 120,
-    brand: 'Google',
-    category: 'tablets',
-    thumbnail: 'https://lh3.googleusercontent.com/P1yXz-4Z-rX-Yw5w2O4A8j_g7pZ6N0q6v9T0a7d9q1G8k4V7m8_Q4s2o6r4k8l1s6f0w5=w600',
-    images: ['https://lh3.googleusercontent.com/P1yXz-4Z-rX-Yw5w2O4A8j_g7pZ6N0q6v9T0a7d9q1G8k4V7m8_Q4s2o6r4k8l1s6f0w5=w600']
+    "title": "Razer Blade 16",
+    "brand": "Razer",
+    "price": 2999,
+    "id": 2007,
+    "category": "laptops",
+    "description": "Powerful Razer laptop for productivity and gaming.",
+    "discountPercentage": 11,
+    "rating": 4.6,
+    "stock": 168,
+    "thumbnail": "https://images.unsplash.com/photo-1587614382346-4a56f2f120f2?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1587614382346-4a56f2f120f2?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3005,
-    title: 'OnePlus Pad 2',
-    description: 'Incredibly smooth 144Hz display, powerful Snapdragon processor, and elegant unibody design.',
-    price: 499,
-    discountPercentage: 10,
-    rating: 4.6,
-    stock: 95,
-    brand: 'OnePlus',
-    category: 'tablets',
-    thumbnail: 'https://image01.oneplus.net/ebp/202406/18/1-m00-5e-65-cbaigmy1t8mabe6faads0i_a5k0154.png',
-    images: ['https://image01.oneplus.net/ebp/202406/18/1-m00-5e-65-cbaigmy1t8mabe6faads0i_a5k0154.png']
+    "title": "Microsoft Surface Laptop 7",
+    "brand": "Microsoft",
+    "price": 1199,
+    "id": 2008,
+    "category": "laptops",
+    "description": "Powerful Microsoft laptop for productivity and gaming.",
+    "discountPercentage": 0,
+    "rating": 4.5,
+    "stock": 57,
+    "thumbnail": "https://images.unsplash.com/photo-1611186871340-8b65287e81cc?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1611186871340-8b65287e81cc?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3006,
-    title: 'Samsung Galaxy Tab S9 FE',
-    description: 'Vibrant display, long-lasting battery, and S Pen included for creative minds.',
-    price: 449,
-    discountPercentage: 12,
-    rating: 4.5,
-    stock: 180,
-    brand: 'Samsung',
-    category: 'tablets',
-    thumbnail: 'https://images.samsung.com/is/image/samsung/p6pim/in/sm-x510nzaeinu/gallery/in-galaxy-tab-s9-fe-sm-x510-sm-x510nzaeinu-538466657?$650_519_PNG$',
-    images: ['https://images.samsung.com/is/image/samsung/p6pim/in/sm-x510nzaeinu/gallery/in-galaxy-tab-s9-fe-sm-x510-sm-x510nzaeinu-538466657?$650_519_PNG$']
+    "title": "LG Gram 14",
+    "brand": "LG",
+    "price": 1299,
+    "id": 2009,
+    "category": "laptops",
+    "description": "Powerful LG laptop for productivity and gaming.",
+    "discountPercentage": 8,
+    "rating": 4.6,
+    "stock": 125,
+    "thumbnail": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3007,
-    title: 'Lenovo Tab P12 Pro',
-    description: 'Immersive 12.6" 2K AMOLED display and premium audio for entertainment and productivity.',
-    price: 599,
-    discountPercentage: 20,
-    rating: 4.4,
-    stock: 60,
-    brand: 'Lenovo',
-    category: 'tablets',
-    thumbnail: 'https://p2-ofp.static.pub/ShareResource/we/Products/tablets/lenovo-tab-p12-pro/lenovo-tab-p12-pro-hero.png',
-    images: ['https://p2-ofp.static.pub/ShareResource/we/Products/tablets/lenovo-tab-p12-pro/lenovo-tab-p12-pro-hero.png']
+    "title": "Acer Zenbook S 13 OLED",
+    "brand": "Acer",
+    "price": 1099,
+    "id": 2010,
+    "category": "laptops",
+    "description": "Powerful Acer laptop for productivity and gaming.",
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 207,
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3008,
-    title: 'Apple iPad mini (6th gen)',
-    description: 'Mega power. Mini sized. All-screen design with A15 Bionic chip.',
-    price: 499,
-    discountPercentage: 10,
-    rating: 4.8,
-    stock: 220,
-    brand: 'Apple',
-    category: 'tablets',
-    thumbnail: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-starlight-202109?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1629840742000',
-    images: ['https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-mini-select-wifi-starlight-202109?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1629840742000']
+    "title": "Alienware m16 R2",
+    "brand": "Alienware",
+    "price": 1699,
+    "id": 2011,
+    "category": "laptops",
+    "description": "Powerful Alienware laptop for productivity and gaming.",
+    "discountPercentage": 8,
+    "rating": 4.7,
+    "stock": 214,
+    "thumbnail": "https://images.unsplash.com/photo-1504707748692-419802cf3e51?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1504707748692-419802cf3e51?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3009,
-    title: 'Xiaomi Pad 6',
-    description: 'Flagship-level performance with a 144Hz WQHD+ eye-care display.',
-    price: 399,
-    discountPercentage: 15,
-    rating: 4.5,
-    stock: 130,
-    brand: 'Xiaomi',
-    category: 'tablets',
-    thumbnail: 'https://i01.appmifile.com/webfile/globalimg/products/pc/xiaomi-pad-6/specs-01.png',
-    images: ['https://i01.appmifile.com/webfile/globalimg/products/pc/xiaomi-pad-6/specs-01.png']
+    "title": "MSI Stealth 14 Studio",
+    "brand": "MSI",
+    "price": 1499,
+    "id": 2012,
+    "category": "laptops",
+    "description": "Powerful MSI laptop for productivity and gaming.",
+    "discountPercentage": 2,
+    "rating": 4.5,
+    "stock": 220,
+    "thumbnail": "https://images.unsplash.com/photo-1515002161962-d9f783186259?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1515002161962-d9f783186259?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 3010,
-    title: 'Microsoft Surface Pro 11',
-    description: 'The most flexible 2-in-1 device, now with Copilot+ AI capabilities.',
-    price: 999,
-    discountPercentage: 0,
-    rating: 4.6,
-    stock: 85,
-    brand: 'Microsoft',
-    category: 'tablets',
-    thumbnail: 'https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW1k6I2?ver=714a',
-    images: ['https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RW1k6I2?ver=714a']
-  },
-
-  // Smartwatches
-  {
-    id: 4001,
-    title: 'Apple Watch Ultra 2',
-    description: 'The most rugged and capable Apple Watch. Now with the magical double tap gesture.',
-    price: 799,
-    discountPercentage: 5,
-    rating: 4.9,
-    stock: 100,
-    brand: 'Apple',
-    category: 'smartwatches',
-    thumbnail: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-ultra2-titanium-alpine-indigo-s9-m_GEO_IN?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1693333333333',
-    images: ['https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-ultra2-titanium-alpine-indigo-s9-m_GEO_IN?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1693333333333']
+    "title": "Gigabyte AERO 14 OLED",
+    "brand": "Gigabyte",
+    "price": 1399,
+    "id": 2013,
+    "category": "laptops",
+    "description": "Powerful Gigabyte laptop for productivity and gaming.",
+    "discountPercentage": 0,
+    "rating": 4.8,
+    "stock": 65,
+    "thumbnail": "https://images.unsplash.com/photo-1550389332-9653db3c6d17?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1550389332-9653db3c6d17?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4002,
-    title: 'Samsung Galaxy Watch 6 Classic',
-    description: 'The rotating bezel is back. Classic design meets advanced health tracking.',
-    price: 399,
-    discountPercentage: 15,
-    rating: 4.7,
-    stock: 140,
-    brand: 'Samsung',
-    category: 'smartwatches',
-    thumbnail: 'https://images.samsung.com/is/image/samsung/p6pim/in/sm-r950nzkainu/gallery/in-galaxy-watch6-classic-r950-sm-r950nzkainu-537406456?$650_519_PNG$',
-    images: ['https://images.samsung.com/is/image/samsung/p6pim/in/sm-r950nzkainu/gallery/in-galaxy-watch6-classic-r950-sm-r950nzkainu-537406456?$650_519_PNG$']
+    "title": "Samsung Galaxy Book 4 Pro",
+    "brand": "Samsung",
+    "price": 1449,
+    "id": 2014,
+    "category": "laptops",
+    "description": "Powerful Samsung laptop for productivity and gaming.",
+    "discountPercentage": 5,
+    "rating": 4.8,
+    "stock": 111,
+    "thumbnail": "https://images.unsplash.com/photo-1569422325992-06b2512bc85c?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1569422325992-06b2512bc85c?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4003,
-    title: 'Garmin Epix Pro (Gen 2)',
-    description: 'Ultimate high-performance smartwatch with an AMOLED display and built-in flashlight.',
-    price: 899,
-    discountPercentage: 0,
-    rating: 4.8,
-    stock: 45,
-    brand: 'Garmin',
-    category: 'smartwatches',
-    thumbnail: 'https://res.garmin.com/en/products/010-02803-00/g/rf-front-97f394f4-5f5f-4a0b-99f5-19e83e6b5c38.png',
-    images: ['https://res.garmin.com/en/products/010-02803-00/g/rf-front-97f394f4-5f5f-4a0b-99f5-19e83e6b5c38.png']
+    "title": "Framework Laptop 13",
+    "brand": "Framework",
+    "price": 1049,
+    "id": 2015,
+    "category": "laptops",
+    "description": "Powerful Framework laptop for productivity and gaming.",
+    "discountPercentage": 14,
+    "rating": 4.9,
+    "stock": 246,
+    "thumbnail": "https://images.unsplash.com/photo-1585247226500-111059f38f71?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585247226500-111059f38f71?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4004,
-    title: 'Google Pixel Watch 2',
-    description: 'Help by Google. Health by Fitbit. The best of both worlds on your wrist.',
-    price: 349,
-    discountPercentage: 10,
-    rating: 4.5,
-    stock: 200,
-    brand: 'Google',
-    category: 'smartwatches',
-    thumbnail: 'https://lh3.googleusercontent.com/yE4g0_xJ8l7q2j5h5z4k8t6q0v1b3n8m5c2z9x0v6b8n4m5c2z9x0v6b8n4m5c2z9x0v6b=w600',
-    images: ['https://lh3.googleusercontent.com/yE4g0_xJ8l7q2j5h5z4k8t6q0v1b3n8m5c2z9x0v6b8n4m5c2z9x0v6b8n4m5c2z9x0v6b=w600']
+    "title": "Apple iPad Pro 13\" (M4)",
+    "brand": "Apple",
+    "price": 1299,
+    "id": 3001,
+    "category": "tablets",
+    "description": "Versatile Apple tablet for work and play.",
+    "discountPercentage": 0,
+    "rating": 4.6,
+    "stock": 72,
+    "thumbnail": "https://images.unsplash.com/photo-1544244015-0422a4659b83?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0422a4659b83?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4005,
-    title: 'Apple Watch Series 9',
-    description: 'Smarter. Brighter. Mightier. With the new S9 chip and a brighter display.',
-    price: 399,
-    discountPercentage: 5,
-    rating: 4.8,
-    stock: 300,
-    brand: 'Apple',
-    category: 'smartwatches',
-    thumbnail: 'https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s9-aluminum-midnight-sport-band-midnight-m_GEO_IN?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1693333333333',
-    images: ['https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-s9-aluminum-midnight-sport-band-midnight-m_GEO_IN?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=1693333333333']
+    "title": "Samsung Galaxy Tab S9 Ultra",
+    "brand": "Samsung",
+    "price": 1199,
+    "id": 3002,
+    "category": "tablets",
+    "description": "Versatile Samsung tablet for work and play.",
+    "discountPercentage": 14,
+    "rating": 4.8,
+    "stock": 139,
+    "thumbnail": "https://images.unsplash.com/photo-1585790053232-a423f0515f4d?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1585790053232-a423f0515f4d?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4006,
-    title: 'OnePlus Watch 2',
-    description: 'Your Partner in Time. Dual-engine architecture for 100-hour battery life.',
-    price: 299,
-    discountPercentage: 15,
-    rating: 4.6,
-    stock: 120,
-    brand: 'OnePlus',
-    category: 'smartwatches',
-    thumbnail: 'https://image01.oneplus.net/ebp/202402/20/1-m00-5c-7b-cbaigmxw9u-abz-laaek6p5u2h0689.png',
-    images: ['https://image01.oneplus.net/ebp/202402/20/1-m00-5c-7b-cbaigmxw9u-abz-laaek6p5u2h0689.png']
+    "title": "Apple iPad Air 11\" (M2)",
+    "brand": "Apple",
+    "price": 599,
+    "id": 3003,
+    "category": "tablets",
+    "description": "Versatile Apple tablet for work and play.",
+    "discountPercentage": 1,
+    "rating": 4.6,
+    "stock": 211,
+    "thumbnail": "https://images.unsplash.com/photo-1561154464839-813c9e05e55e?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1561154464839-813c9e05e55e?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4007,
-    title: 'Garmin Venu 3',
-    description: 'Premium GPS smartwatch with an AMOLED display and up to 14 days of battery.',
-    price: 449,
-    discountPercentage: 0,
-    rating: 4.7,
-    stock: 80,
-    brand: 'Garmin',
-    category: 'smartwatches',
-    thumbnail: 'https://res.garmin.com/en/products/010-02784-00/g/rf-front-4f6c4b2e-0d1a-4c2f-8a5d-2b4b4b4b4b4b.png',
-    images: ['https://res.garmin.com/en/products/010-02784-00/g/rf-front-4f6c4b2e-0d1a-4c2f-8a5d-2b4b4b4b4b4b.png']
+    "title": "Google Pixel Tablet",
+    "brand": "Google",
+    "price": 499,
+    "id": 3004,
+    "category": "tablets",
+    "description": "Versatile Google tablet for work and play.",
+    "discountPercentage": 4,
+    "rating": 4.9,
+    "stock": 108,
+    "thumbnail": "https://images.unsplash.com/photo-1607316930063-e525162a8335?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1607316930063-e525162a8335?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4008,
-    title: 'Amazfit Smartwatch GTR 4',
-    description: 'Fitness made easy. Large AMOLED display and incredibly long battery life.',
-    price: 199,
-    discountPercentage: 20,
-    rating: 4.4,
-    stock: 250,
-    brand: 'Amazfit',
-    category: 'smartwatches',
-    thumbnail: 'https://www.amazfit.com/cdn/shop/products/gtr4-1.png',
-    images: ['https://www.amazfit.com/cdn/shop/products/gtr4-1.png']
+    "title": "OnePlus Pad 2",
+    "brand": "OnePlus",
+    "price": 499,
+    "id": 3005,
+    "category": "tablets",
+    "description": "Versatile OnePlus tablet for work and play.",
+    "discountPercentage": 9,
+    "rating": 4.7,
+    "stock": 241,
+    "thumbnail": "https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4009,
-    title: 'Samsung Galaxy Watch 6',
-    description: 'Everyday health tracking with a larger screen and thinner bezel.',
-    price: 299,
-    discountPercentage: 10,
-    rating: 4.6,
-    stock: 180,
-    brand: 'Samsung',
-    category: 'smartwatches',
-    thumbnail: 'https://images.samsung.com/is/image/samsung/p6pim/in/sm-r930nzsainu/gallery/in-galaxy-watch6-r930-sm-r930nzsainu-537406456?$650_519_PNG$',
-    images: ['https://images.samsung.com/is/image/samsung/p6pim/in/sm-r930nzsainu/gallery/in-galaxy-watch6-r930-sm-r930nzsainu-537406456?$650_519_PNG$']
+    "title": "Samsung Galaxy Tab S9 FE",
+    "brand": "Samsung",
+    "price": 449,
+    "id": 3006,
+    "category": "tablets",
+    "description": "Versatile Samsung tablet for work and play.",
+    "discountPercentage": 10,
+    "rating": 4.5,
+    "stock": 98,
+    "thumbnail": "https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1555099962-4199c345e5dd?auto=format&fit=crop&w=500&q=80"
+    ]
   },
   {
-    id: 4010,
-    title: 'Fossil Gen 6 Smartwatch',
-    description: 'Classic watch design powered with Wear OS by Google.',
-    price: 229,
-    discountPercentage: 30,
-    rating: 4.3,
-    stock: 90,
-    brand: 'Fossil',
-    category: 'smartwatches',
-    thumbnail: 'https://fossil.scene7.com/is/image/FossilPartners/FTW4059_main?$sfcc_fos_large$',
-    images: ['https://fossil.scene7.com/is/image/FossilPartners/FTW4059_main?$sfcc_fos_large$']
+    "title": "Lenovo Tab P12 Pro",
+    "brand": "Lenovo",
+    "price": 599,
+    "id": 3007,
+    "category": "tablets",
+    "description": "Versatile Lenovo tablet for work and play.",
+    "discountPercentage": 8,
+    "rating": 4.7,
+    "stock": 232,
+    "thumbnail": "https://images.unsplash.com/photo-1580828369247-f70362f67646?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1580828369247-f70362f67646?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Apple iPad mini (6th gen)",
+    "brand": "Apple",
+    "price": 499,
+    "id": 3008,
+    "category": "tablets",
+    "description": "Versatile Apple tablet for work and play.",
+    "discountPercentage": 10,
+    "rating": 4.7,
+    "stock": 185,
+    "thumbnail": "https://images.unsplash.com/photo-1611565431647-81765c928420?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1611565431647-81765c928420?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Xiaomi Pad 6",
+    "brand": "Xiaomi",
+    "price": 399,
+    "id": 3009,
+    "category": "tablets",
+    "description": "Versatile Xiaomi tablet for work and play.",
+    "discountPercentage": 6,
+    "rating": 4.9,
+    "stock": 212,
+    "thumbnail": "https://images.unsplash.com/photo-1542994468-b80c5e744e83?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1542994468-b80c5e744e83?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Microsoft Surface Pro 11",
+    "brand": "Microsoft",
+    "price": 999,
+    "id": 3010,
+    "category": "tablets",
+    "description": "Versatile Microsoft tablet for work and play.",
+    "discountPercentage": 10,
+    "rating": 4.6,
+    "stock": 237,
+    "thumbnail": "https://images.unsplash.com/photo-1527663266205-d1448b18a4a5?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527663266205-d1448b18a4a5?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Amazon Fire Max 11",
+    "brand": "Amazon",
+    "price": 229,
+    "id": 3011,
+    "category": "tablets",
+    "description": "Versatile Amazon tablet for work and play.",
+    "discountPercentage": 7,
+    "rating": 4.5,
+    "stock": 117,
+    "thumbnail": "https://images.unsplash.com/photo-1551276063-a2100dc0f00a?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1551276063-a2100dc0f00a?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Remarkable 2",
+    "brand": "Remarkable",
+    "price": 399,
+    "id": 3012,
+    "category": "tablets",
+    "description": "Versatile Remarkable tablet for work and play.",
+    "discountPercentage": 6,
+    "rating": 4.8,
+    "stock": 156,
+    "thumbnail": "https://images.unsplash.com/photo-1598442805404-585802a75ec0?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1598442805404-585802a75ec0?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Boox Note Air 3",
+    "brand": "Boox",
+    "price": 399,
+    "id": 3013,
+    "category": "tablets",
+    "description": "Versatile Boox tablet for work and play.",
+    "discountPercentage": 7,
+    "rating": 4.5,
+    "stock": 130,
+    "thumbnail": "https://images.unsplash.com/photo-1600861194942-8d0f1eb252d4?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1600861194942-8d0f1eb252d4?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Honor Pad 9",
+    "brand": "Honor",
+    "price": 349,
+    "id": 3014,
+    "category": "tablets",
+    "description": "Versatile Honor tablet for work and play.",
+    "discountPercentage": 8,
+    "rating": 4.5,
+    "stock": 75,
+    "thumbnail": "https://images.unsplash.com/photo-1612404730960-5c71577fca11?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1612404730960-5c71577fca11?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Vivo Pad 3 Pro",
+    "brand": "Vivo",
+    "price": 449,
+    "id": 3015,
+    "category": "tablets",
+    "description": "Versatile Vivo tablet for work and play.",
+    "discountPercentage": 6,
+    "rating": 4.8,
+    "stock": 237,
+    "thumbnail": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Apple Watch Ultra 2",
+    "brand": "Apple",
+    "price": 799,
+    "id": 4001,
+    "category": "smartwatches",
+    "description": "Advanced Apple smartwatch with health tracking.",
+    "discountPercentage": 12,
+    "rating": 4.9,
+    "stock": 157,
+    "thumbnail": "https://images.unsplash.com/photo-1434493789847-2f02b3112b32?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1434493789847-2f02b3112b32?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy Watch 6 Classic",
+    "brand": "Samsung",
+    "price": 399,
+    "id": 4002,
+    "category": "smartwatches",
+    "description": "Advanced Samsung smartwatch with health tracking.",
+    "discountPercentage": 8,
+    "rating": 4.6,
+    "stock": 186,
+    "thumbnail": "https://images.unsplash.com/photo-1508685002900-2f9f688e1467?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1508685002900-2f9f688e1467?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Garmin Epix Pro (Gen 2)",
+    "brand": "Garmin",
+    "price": 899,
+    "id": 4003,
+    "category": "smartwatches",
+    "description": "Advanced Garmin smartwatch with health tracking.",
+    "discountPercentage": 8,
+    "rating": 4.6,
+    "stock": 199,
+    "thumbnail": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Google Pixel Watch 2",
+    "brand": "Google",
+    "price": 349,
+    "id": 4004,
+    "category": "smartwatches",
+    "description": "Advanced Google smartwatch with health tracking.",
+    "discountPercentage": 0,
+    "rating": 4.6,
+    "stock": 83,
+    "thumbnail": "https://images.unsplash.com/photo-1509741102003-ca59ec6a661f?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509741102003-ca59ec6a661f?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Apple Watch Series 9",
+    "brand": "Apple",
+    "price": 399,
+    "id": 4005,
+    "category": "smartwatches",
+    "description": "Advanced Apple smartwatch with health tracking.",
+    "discountPercentage": 10,
+    "rating": 4.8,
+    "stock": 65,
+    "thumbnail": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "OnePlus Watch 2",
+    "brand": "OnePlus",
+    "price": 299,
+    "id": 4006,
+    "category": "smartwatches",
+    "description": "Advanced OnePlus smartwatch with health tracking.",
+    "discountPercentage": 10,
+    "rating": 4.7,
+    "stock": 66,
+    "thumbnail": "https://images.unsplash.com/photo-1517502396347-195b05216e5f?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1517502396347-195b05216e5f?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Garmin Venu 3",
+    "brand": "Garmin",
+    "price": 449,
+    "id": 4007,
+    "category": "smartwatches",
+    "description": "Advanced Garmin smartwatch with health tracking.",
+    "discountPercentage": 4,
+    "rating": 4.8,
+    "stock": 197,
+    "thumbnail": "https://images.unsplash.com/photo-1546868871869-7090b82f0fa5?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1546868871869-7090b82f0fa5?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Amazfit GTR 4",
+    "brand": "Amazfit",
+    "price": 199,
+    "id": 4008,
+    "category": "smartwatches",
+    "description": "Advanced Amazfit smartwatch with health tracking.",
+    "discountPercentage": 8,
+    "rating": 4.7,
+    "stock": 158,
+    "thumbnail": "https://images.unsplash.com/photo-1511370235398-c209c894c489?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1511370235398-c209c894c489?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy Watch 6",
+    "brand": "Samsung",
+    "price": 299,
+    "id": 4009,
+    "category": "smartwatches",
+    "description": "Advanced Samsung smartwatch with health tracking.",
+    "discountPercentage": 4,
+    "rating": 4.7,
+    "stock": 194,
+    "thumbnail": "https://images.unsplash.com/photo-1555541584-63307b22a014?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1555541584-63307b22a014?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Fossil Gen 6 Smartwatch",
+    "brand": "Fossil",
+    "price": 229,
+    "id": 4010,
+    "category": "smartwatches",
+    "description": "Advanced Fossil smartwatch with health tracking.",
+    "discountPercentage": 14,
+    "rating": 4.6,
+    "stock": 131,
+    "thumbnail": "https://images.unsplash.com/photo-1603504351657-36e655d496a3?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1603504351657-36e655d496a3?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Huawei Watch 4 Pro",
+    "brand": "Huawei",
+    "price": 549,
+    "id": 4011,
+    "category": "smartwatches",
+    "description": "Advanced Huawei smartwatch with health tracking.",
+    "discountPercentage": 13,
+    "rating": 4.8,
+    "stock": 178,
+    "thumbnail": "https://images.unsplash.com/photo-1584661858548-c89b7e7046e0?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1584661858548-c89b7e7046e0?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "TicWatch Pro 5",
+    "brand": "Mobvoi",
+    "price": 349,
+    "id": 4012,
+    "category": "smartwatches",
+    "description": "Advanced Mobvoi smartwatch with health tracking.",
+    "discountPercentage": 11,
+    "rating": 4.9,
+    "stock": 125,
+    "thumbnail": "https://images.unsplash.com/photo-1572111306350-f8f4135ab258?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1572111306350-f8f4135ab258?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Suunto 9 Peak Pro",
+    "brand": "Suunto",
+    "price": 499,
+    "id": 4013,
+    "category": "smartwatches",
+    "description": "Advanced Suunto smartwatch with health tracking.",
+    "discountPercentage": 13,
+    "rating": 4.5,
+    "stock": 67,
+    "thumbnail": "https://images.unsplash.com/photo-1578345945377-fec5db70e8cb?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1578345945377-fec5db70e8cb?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Polar Vantage V3",
+    "brand": "Polar",
+    "price": 599,
+    "id": 4014,
+    "category": "smartwatches",
+    "description": "Advanced Polar smartwatch with health tracking.",
+    "discountPercentage": 4,
+    "rating": 4.8,
+    "stock": 142,
+    "thumbnail": "https://images.unsplash.com/photo-1610486007412-f7ce3a207221?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1610486007412-f7ce3a207221?auto=format&fit=crop&w=500&q=80"
+    ]
+  },
+  {
+    "title": "Apple Watch SE (2nd Gen)",
+    "brand": "Apple",
+    "price": 249,
+    "id": 4015,
+    "category": "smartwatches",
+    "description": "Advanced Apple smartwatch with health tracking.",
+    "discountPercentage": 1,
+    "rating": 4.9,
+    "stock": 58,
+    "thumbnail": "https://images.unsplash.com/photo-1509191060930-4e12c19c9b13?auto=format&fit=crop&w=500&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1509191060930-4e12c19c9b13?auto=format&fit=crop&w=500&q=80"
+    ]
   }
 ]
 
-async function getCatalog() {
+export async function getCatalogProducts() {
   return customProducts
 }
 
-export async function getCatalogProducts() {
-  return getCatalog()
-}
-
 export async function getProducts(_req: Request, res: Response) {
-  const products = await getCatalog()
-  res.json({ products })
+  res.json({ products: customProducts })
 }
 
 export async function getProductById(req: Request, res: Response) {
@@ -571,8 +931,7 @@ export async function getProductById(req: Request, res: Response) {
     res.status(400).json({ message: 'Invalid id' })
     return
   }
-  const products = await getCatalog()
-  const p = products.find((x) => x.id === id)
+  const p = customProducts.find((x) => x.id === id)
   if (!p) {
     res.status(404).json({ message: 'Not found' })
     return
