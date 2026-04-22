@@ -8,7 +8,11 @@
 
 TechKart is a lightweight tech e-commerce experience focused on comparing products, tracking pricing, and a smooth checkout flow. It ships with email/password auth, Google OAuth, saved addresses, and past orders powered by Postgres.
 
-### Features
+### Disclaimer
+
+**Please Note:** All products and data shown in this application are generated from **dummy data** (e.g., via dummyjson.com or mock datasets). This is a conceptual project meant for demonstration purposes only. The products, prices, specifications, and images do not represent real-world items or offers.
+
+## Features
 - Tech-only catalog (Smartphones, Laptops, Tablets, Smartwatches) with search, filters, sorting, and Load more
 - Compare tray (comparison restricted to same category)
 - Cart with quick “Added to cart” feedback

@@ -11,6 +11,7 @@ import { useCatalogStore } from '@/stores/catalogStore'
 import { toInrFromUsd } from '@/utils/money'
 import { MAIN_CATEGORIES, type TechCategory } from '@/constants/techkart'
 import { getTechCategoryFromSlug } from '@/utils/techCategory'
+import { hasValidImage, isBestChoice } from '@/utils/productUtils'
 
 type SortKey = 'newest' | 'popularity' | 'price_asc' | 'price_desc' | 'rating_desc'
 
@@ -98,10 +99,22 @@ export default function Products() {
 
     const sorted = base.slice()
     sorted.sort((a, b) => {
+      const aImg = hasValidImage(a)
+      const bImg = hasValidImage(b)
+      if (aImg && !bImg) return -1
+      if (!aImg && bImg) return 1
+
       if (sort === 'newest') return b.id - a.id
       if (sort === 'price_asc') return a.priceInr - b.priceInr
       if (sort === 'price_desc') return b.priceInr - a.priceInr
       if (sort === 'rating_desc') return b.rating - a.rating
+      
+      // Default: popularity
+      const aBest = isBestChoice(a)
+      const bBest = isBestChoice(b)
+      if (aBest && !bBest) return -1
+      if (!aBest && bBest) return 1
+
       const pa = a.rating * (1 + a.discountPercentage / 100)
       const pb = b.rating * (1 + b.discountPercentage / 100)
       return pb - pa

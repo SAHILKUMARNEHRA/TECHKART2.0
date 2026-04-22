@@ -6,6 +6,7 @@ import { useCatalogStore } from '@/stores/catalogStore'
 import ProductCard from '@/components/ProductCard'
 import Skeleton from '@/components/Skeleton'
 import { toInrFromUsd } from '@/utils/money'
+import { sortProductsForDisplay } from '@/utils/productUtils'
 import Hero3D from '@/components/Hero3D'
 import { motion } from 'framer-motion'
 
@@ -38,12 +39,9 @@ export default function Home() {
 
   const { under10, under20, trending, brands } = useMemo(() => {
     const mapped = products.map((p) => ({ ...p, priceInr: toInrFromUsd(p.price) }))
-    const under10 = mapped.filter((p) => p.priceInr <= 10000).sort((a, b) => b.rating - a.rating).slice(0, 8)
-    const under20 = mapped.filter((p) => p.priceInr <= 20000).sort((a, b) => b.discountPercentage - a.discountPercentage).slice(0, 8)
-    const trending = mapped
-      .slice()
-      .sort((a, b) => b.rating * (1 + b.discountPercentage / 100) - a.rating * (1 + a.discountPercentage / 100))
-      .slice(0, 8)
+    const under10 = sortProductsForDisplay(mapped.filter((p) => p.priceInr <= 10000)).slice(0, 8)
+    const under20 = sortProductsForDisplay(mapped.filter((p) => p.priceInr <= 20000)).slice(0, 8)
+    const trending = sortProductsForDisplay(mapped.slice()).slice(0, 8)
 
     const brandCounts = new Map<string, number>()
     for (const p of mapped) brandCounts.set(p.brand, (brandCounts.get(p.brand) ?? 0) + 1)
