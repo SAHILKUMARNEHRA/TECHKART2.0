@@ -95,22 +95,22 @@ export default function Checkout() {
     <>
       <div className="grid gap-6 lg:grid-cols-[1fr_360px] lg:items-start">
         <div className="space-y-4">
-          <div className="rounded-3xl border border-tk-border bg-white/60 p-5 shadow-soft backdrop-blur-sm">
-            <div className="font-display text-xl font-bold text-slate-900">Checkout</div>
-            <div className="mt-1 text-sm text-slate-600">Confirm address and payment.</div>
+          <div className="rounded-3xl border border-slate-800 bg-slate-900/50 p-5 shadow-neon backdrop-blur-md">
+            <div className="font-display text-xl font-bold text-white">Checkout</div>
+            <div className="mt-1 text-sm text-slate-400">Confirm address and payment.</div>
           </div>
 
-          <div className="rounded-3xl border border-tk-border bg-white/60 p-5 shadow-soft backdrop-blur-sm">
+          <div className="rounded-3xl border border-slate-800 bg-slate-900/50 p-5 shadow-neon backdrop-blur-md">
             <div className="flex items-center gap-2">
-              <MapPin size={18} className="text-blue-700" />
-              <div className="font-display text-lg font-semibold text-slate-900">Delivery address</div>
+              <MapPin size={18} className="text-tk-primary-2" />
+              <div className="font-display text-lg font-semibold text-white">Delivery address</div>
             </div>
 
             {!user ? (
-              <div className="mt-4 rounded-2xl border border-tk-border bg-white/70 p-4 shadow-sm">
-                <div className="text-sm font-semibold text-slate-900">Sign in to continue</div>
-                <div className="mt-1 text-sm text-slate-600">Addresses and orders are saved to your account.</div>
-                <Button className="mt-4 h-11" onClick={() => setAuthOpen(true)}>
+              <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-800/40 p-4 shadow-sm">
+                <div className="text-sm font-semibold text-white">Sign in to continue</div>
+                <div className="mt-1 text-sm text-slate-400">Addresses and orders are saved to your account.</div>
+                <Button className="mt-4 h-11 bg-tk-primary hover:bg-blue-500 text-white shadow-[0_0_15px_rgba(59,130,246,0.4)]" onClick={() => setAuthOpen(true)}>
                   Login / Register
                 </Button>
               </div>
@@ -126,21 +126,21 @@ export default function Checkout() {
                     {addresses.map((a) => (
                       <label
                         key={a.id}
-                        className="flex cursor-pointer items-start gap-3 rounded-2xl border border-tk-border bg-white/70 p-4 shadow-sm transition hover:bg-white"
+                        className="flex cursor-pointer items-start gap-3 rounded-2xl border border-slate-800 bg-slate-800/40 p-4 shadow-sm transition hover:bg-slate-800/60"
                       >
                         <input
                           type="radio"
                           name="address"
                           checked={selectedAddressId === a.id}
                           onChange={() => setSelectedAddressId(a.id)}
-                          className="mt-1 h-4 w-4 accent-blue-600"
+                          className="mt-1 h-4 w-4 accent-blue-500"
                         />
                         <div className="min-w-0">
-                          <div className="text-sm font-semibold text-slate-900">{a.label}</div>
-                          <div className="mt-1 text-sm text-slate-700">
+                          <div className="text-sm font-semibold text-white">{a.label}</div>
+                          <div className="mt-1 text-sm text-slate-300">
                             {a.full_name} · {a.phone}
                           </div>
-                          <div className="mt-1 text-sm text-slate-600">
+                          <div className="mt-1 text-sm text-slate-400">
                             {a.line1}
                             {a.line2 ? `, ${a.line2}` : ''}, {a.city}, {a.state} - {a.pincode}
                           </div>
@@ -149,7 +149,7 @@ export default function Checkout() {
                     ))}
                   </div>
                 ) : (
-                  <div className="rounded-2xl border border-tk-border bg-white/70 p-4 text-sm text-slate-700 shadow-sm">
+                  <div className="rounded-2xl border border-slate-800 bg-slate-800/40 p-4 text-sm text-slate-300 shadow-sm">
                     No saved addresses yet. Add one below.
                   </div>
                 )}
@@ -157,59 +157,59 @@ export default function Checkout() {
                 {selectedAddressId ? (
                   <div className="text-xs text-slate-500">You can manage addresses in Profile (max 3).</div>
                 ) : (
-                  <div className="rounded-2xl border border-tk-border bg-white/70 p-4 shadow-sm">
-                    <div className="text-sm font-semibold text-slate-900">Add a new address</div>
+                  <div className="rounded-2xl border border-slate-800 bg-slate-800/40 p-4 shadow-sm">
+                    <div className="text-sm font-semibold text-white">Add a new address</div>
                     <div className="mt-3 grid gap-2">
                       <div className="grid grid-cols-2 gap-2">
                         <input
                           value={addrLabel}
                           onChange={(e) => setAddrLabel(e.target.value)}
                           placeholder="Label (Home/Work)"
-                          className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                          className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                         />
                         <input
                           value={phone}
                           onChange={(e) => setPhone(e.target.value)}
                           placeholder="Phone"
-                          className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                          className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                         />
                       </div>
                       <input
                         value={fullName}
                         onChange={(e) => setFullName(e.target.value)}
                         placeholder="Full name"
-                        className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                        className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                       />
                       <input
                         value={line1}
                         onChange={(e) => setLine1(e.target.value)}
                         placeholder="Address line 1"
-                        className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                        className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                       />
                       <input
                         value={line2}
                         onChange={(e) => setLine2(e.target.value)}
                         placeholder="Address line 2 (optional)"
-                        className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                        className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                       />
                       <div className="grid grid-cols-3 gap-2">
                         <input
                           value={city}
                           onChange={(e) => setCity(e.target.value)}
                           placeholder="City"
-                          className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                          className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                         />
                         <input
                           value={state}
                           onChange={(e) => setState(e.target.value)}
                           placeholder="State"
-                          className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                          className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                         />
                         <input
                           value={pincode}
                           onChange={(e) => setPincode(e.target.value)}
                           placeholder="Pincode"
-                          className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                          className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                         />
                       </div>
                     </div>
@@ -219,24 +219,24 @@ export default function Checkout() {
             )}
           </div>
 
-          <div className="rounded-3xl border border-tk-border bg-white/60 p-5 shadow-soft backdrop-blur-sm">
+          <div className="rounded-3xl border border-slate-800 bg-slate-900/50 p-5 shadow-neon backdrop-blur-md">
             <div className="flex items-center gap-2">
-              <Wallet size={18} className="text-blue-700" />
-              <div className="font-display text-lg font-semibold text-slate-900">Payment</div>
+              <Wallet size={18} className="text-tk-primary-2" />
+              <div className="font-display text-lg font-semibold text-white">Payment</div>
             </div>
 
             <div className="mt-4 grid gap-2">
-              <label className="flex cursor-pointer items-center justify-between gap-3 rounded-2xl border border-tk-border bg-white/70 p-4 shadow-sm transition hover:bg-white">
+              <label className="flex cursor-pointer items-center justify-between gap-3 rounded-2xl border border-slate-800 bg-slate-800/40 p-4 shadow-sm transition hover:bg-slate-800/60">
                 <div>
-                  <div className="text-sm font-semibold text-slate-900">UPI</div>
-                  <div className="mt-1 text-sm text-slate-600">Pay instantly (simulated)</div>
+                  <div className="text-sm font-semibold text-white">UPI</div>
+                  <div className="mt-1 text-sm text-slate-400">Pay instantly (simulated)</div>
                 </div>
                 <input
                   type="radio"
                   name="pay"
                   checked={payMethod === 'upi'}
                   onChange={() => setPayMethod('upi')}
-                  className="h-4 w-4 accent-blue-600"
+                  className="h-4 w-4 accent-blue-500"
                 />
               </label>
               {payMethod === 'upi' ? (
@@ -244,21 +244,21 @@ export default function Checkout() {
                   value={upiId}
                   onChange={(e) => setUpiId(e.target.value)}
                   placeholder="UPI ID (optional)"
-                  className="h-11 rounded-xl border border-tk-border bg-white/80 px-3 text-sm outline-none focus:border-blue-300 focus:ring-4 focus:ring-blue-200/40"
+                  className="h-11 rounded-xl border border-slate-700/50 bg-slate-950/50 px-3 text-sm text-white outline-none placeholder:text-slate-500 focus:border-tk-primary/50 focus:ring-4 focus:ring-tk-primary/20"
                 />
               ) : null}
 
-              <label className="flex cursor-pointer items-center justify-between gap-3 rounded-2xl border border-tk-border bg-white/70 p-4 shadow-sm transition hover:bg-white">
+              <label className="flex cursor-pointer items-center justify-between gap-3 rounded-2xl border border-slate-800 bg-slate-800/40 p-4 shadow-sm transition hover:bg-slate-800/60">
                 <div>
-                  <div className="text-sm font-semibold text-slate-900">Cash on Delivery</div>
-                  <div className="mt-1 text-sm text-slate-600">Pay when delivered</div>
+                  <div className="text-sm font-semibold text-white">Cash on Delivery</div>
+                  <div className="mt-1 text-sm text-slate-400">Pay when delivered</div>
                 </div>
                 <input
                   type="radio"
                   name="pay"
                   checked={payMethod === 'cod'}
                   onChange={() => setPayMethod('cod')}
-                  className="h-4 w-4 accent-blue-600"
+                  className="h-4 w-4 accent-blue-500"
                 />
               </label>
             </div>
@@ -266,25 +266,25 @@ export default function Checkout() {
         </div>
 
         <div className="sticky top-20 space-y-4">
-          <div className="rounded-3xl border border-tk-border bg-white/60 p-5 shadow-soft backdrop-blur-sm">
-            <div className="font-display text-lg font-semibold text-slate-900">Order summary</div>
-            <div className="mt-4 space-y-2 text-sm text-slate-700">
+          <div className="rounded-3xl border border-slate-800 bg-slate-900/50 p-6 shadow-neon backdrop-blur-md">
+            <div className="font-display text-2xl font-bold text-white">Order summary</div>
+            <div className="mt-6 space-y-4 text-sm text-slate-300">
               <div className="flex items-center justify-between">
                 <span>Subtotal</span>
-                <span className="font-semibold">{formatInr(subtotal)}</span>
+                <span className="font-bold text-white">{formatInr(subtotal)}</span>
               </div>
               <div className="flex items-center justify-between">
                 <span>Delivery</span>
-                <span className="font-semibold">{delivery === 0 ? 'Free' : formatInr(delivery)}</span>
+                <span className="font-bold text-emerald-400">{delivery === 0 ? 'Free' : formatInr(delivery)}</span>
               </div>
-              <div className="mt-3 border-t border-tk-border pt-3 flex items-center justify-between">
-                <span className="font-semibold">Total</span>
-                <span className="font-display text-xl font-bold text-slate-900">{formatInr(total)}</span>
+              <div className="mt-4 border-t border-slate-700/50 pt-4 flex items-center justify-between">
+                <span className="font-bold text-white">Total</span>
+                <span className="font-display text-2xl font-bold text-white">{formatInr(total)}</span>
               </div>
             </div>
 
             <Button
-              className="mt-5 h-11 w-full"
+              className="mt-8 h-12 w-full bg-tk-primary hover:bg-blue-500 text-white shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all hover:shadow-[0_0_30px_rgba(59,130,246,0.7)]"
               disabled={placing || !user}
               onClick={async () => {
                 if (!user) {
@@ -341,14 +341,14 @@ export default function Checkout() {
       {success ? (
         <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
           <div className="absolute inset-0 bg-slate-950/40 backdrop-blur-sm" />
-          <div className="relative w-full max-w-lg rounded-3xl border border-tk-border bg-white/90 p-6 shadow-lift backdrop-blur-xl">
+          <div className="relative w-full max-w-lg rounded-3xl border border-slate-800 bg-slate-900/95 p-6 shadow-neon backdrop-blur-xl">
             <div className="flex items-start gap-3">
               <div className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-600 text-white shadow-md shadow-emerald-500/25">
                 <CheckCircle2 size={20} />
               </div>
               <div className="min-w-0">
-                <div className="font-display text-xl font-bold text-slate-900">Congratulations! Order placed.</div>
-                <div className="mt-1 text-sm text-slate-600">
+                <div className="font-display text-xl font-bold text-white">Congratulations! Order placed.</div>
+                <div className="mt-1 text-sm text-slate-400">
                   Delivered in {success.etaMin}–{success.etaMax} days. For delivery-related issues, contact the delivery partner.
                 </div>
                 <div className="mt-2 text-xs text-slate-500">Order ID: {success.orderId}</div>
@@ -356,7 +356,7 @@ export default function Checkout() {
             </div>
             <div className="mt-6 flex flex-wrap gap-3">
               <Button
-                className="h-11 flex-1"
+                className="h-11 flex-1 bg-tk-primary hover:bg-blue-500 text-white shadow-[0_0_15px_rgba(59,130,246,0.4)]"
                 onClick={() => {
                   setSuccess(null)
                   navigate('/account')

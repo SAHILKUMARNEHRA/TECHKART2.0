@@ -187,18 +187,18 @@ export default function Compare() {
     <div className="space-y-6">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <div className="font-display text-2xl font-bold tracking-tight text-slate-900">Comparison</div>
-          <div className="mt-1 text-sm text-slate-600">Side-by-side specs with better values highlighted.</div>
+          <div className="font-display text-3xl font-bold tracking-tight text-white">Comparison</div>
+          <div className="mt-1 text-sm font-medium text-slate-400">Side-by-side specs with better values highlighted.</div>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           <Link
             to="/products"
-            className="inline-flex h-10 items-center justify-center gap-2 rounded-xl border border-tk-border bg-white/70 px-4 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-white hover:shadow-md"
+            className="inline-flex h-10 items-center justify-center gap-2 rounded-xl border border-slate-700 bg-slate-800 px-4 text-sm font-semibold text-slate-300 shadow-sm transition hover:bg-slate-700 hover:text-white"
           >
             Add more <ArrowRight size={16} />
           </Link>
           <button
-            className="inline-flex h-10 items-center justify-center rounded-xl border border-tk-border bg-white/70 px-4 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-white hover:shadow-md"
+            className="inline-flex h-10 items-center justify-center rounded-xl border border-rose-900/50 bg-rose-500/10 px-4 text-sm font-semibold text-rose-400 shadow-sm transition hover:bg-rose-500/20 hover:text-rose-300"
             onClick={clear}
           >
             Clear
@@ -206,29 +206,29 @@ export default function Compare() {
         </div>
       </div>
 
-      <div className="rounded-3xl border border-tk-border bg-white/60 p-4 shadow-soft backdrop-blur-sm">
+      <div className="rounded-3xl border border-slate-800 bg-slate-900/50 p-4 shadow-neon backdrop-blur-md">
         <div className="overflow-auto">
           <table className="min-w-[860px] w-full border-separate border-spacing-0">
             <thead>
               <tr>
-                <th className="sticky left-0 z-10 w-44 bg-white/60 p-4 text-left text-xs font-semibold text-slate-500 backdrop-blur-sm">
+                <th className="sticky left-0 z-10 w-44 bg-slate-900/80 p-4 text-left text-xs font-semibold text-slate-400 backdrop-blur-sm">
                   Category
                 </th>
                 {selected.map((p) => (
                   <th key={p!.id} className="p-4 text-left">
-                    <div className="rounded-2xl border border-tk-border bg-white/70 p-3 shadow-sm">
+                    <div className="rounded-2xl border border-slate-800 bg-gradient-to-b from-slate-800 to-slate-900 p-3 shadow-inner">
                       <div className="flex items-start justify-between gap-3">
                         <div>
-                          <Link to={`/products/${p!.id}`} className="tk-clamp-2 text-sm font-semibold text-slate-900">
+                          <Link to={`/products/${p!.id}`} className="tk-clamp-2 text-sm font-bold text-white hover:text-tk-primary-2 transition-colors">
                             {p!.title}
                           </Link>
-                          <div className="mt-2 inline-flex items-center gap-2 text-xs text-slate-600">
+                          <div className="mt-2 inline-flex items-center gap-2 text-xs text-slate-400">
                             <StarRating rating={p!.rating} size={14} />
                             <span className="font-semibold">{p!.rating.toFixed(1)}</span>
                           </div>
                         </div>
                         <button
-                          className="rounded-xl p-2 text-slate-400 transition hover:bg-slate-900/5 hover:text-slate-600"
+                          className="rounded-xl p-2 text-slate-400 transition hover:bg-rose-500/20 hover:text-rose-400"
                           onClick={() => remove(p!.id)}
                           aria-label="Remove"
                         >
@@ -236,7 +236,7 @@ export default function Compare() {
                         </button>
                       </div>
                       {bestPick === p!.id ? (
-                        <div className="mt-3 inline-flex items-center gap-2 rounded-full bg-emerald-600 px-3 py-1 text-xs font-semibold text-white shadow-md shadow-emerald-500/25">
+                        <div className="mt-3 inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/20 px-3 py-1 text-xs font-semibold text-emerald-400 shadow-[0_0_10px_rgba(16,185,129,0.2)]">
                           <Award size={14} /> Best Pick
                         </div>
                       ) : null}
@@ -251,8 +251,8 @@ export default function Compare() {
                 const best = bestIndex(values, row.kind)
 
                 return (
-                  <tr key={row.label}>
-                    <td className="sticky left-0 z-10 w-44 border-t border-tk-border bg-white/60 p-4 text-sm font-semibold text-slate-700 backdrop-blur-sm">
+                  <tr key={row.label} className="group hover:bg-slate-800/30 transition-colors">
+                    <td className="sticky left-0 z-10 w-44 border-t border-slate-800 bg-slate-900/80 p-4 text-sm font-semibold text-slate-300 backdrop-blur-sm group-hover:bg-slate-800/80 transition-colors">
                       {row.label}
                     </td>
                     {values.map((v, idx) => {
@@ -267,17 +267,17 @@ export default function Compare() {
                               : String(v)
 
                       return (
-                        <td key={`${row.label}-${idx}`} className="border-t border-tk-border p-4 align-top">
+                        <td key={`${row.label}-${idx}`} className="border-t border-slate-800 p-4 align-top">
                           <div
                             className={
                               isBest
-                                ? 'rounded-2xl border border-emerald-200 bg-emerald-50/60 px-3 py-3 text-sm font-semibold text-emerald-800 shadow-sm'
-                                : 'rounded-2xl border border-tk-border bg-white/70 px-3 py-3 text-sm font-semibold text-slate-800 shadow-sm'
+                                ? 'rounded-2xl border border-emerald-500/30 bg-emerald-500/10 px-3 py-3 text-sm font-semibold text-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.15)]'
+                                : 'rounded-2xl border border-slate-800 bg-slate-800/50 px-3 py-3 text-sm font-semibold text-slate-300 shadow-sm'
                             }
                           >
                             <div className="flex items-center justify-between gap-3">
                               <span>{display}</span>
-                              {isBest && row.kind !== 'text' ? <CheckCircle2 size={16} className="text-emerald-600" /> : null}
+                              {isBest && row.kind !== 'text' ? <CheckCircle2 size={16} className="text-emerald-400" /> : null}
                             </div>
                           </div>
                         </td>

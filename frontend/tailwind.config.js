@@ -16,6 +16,7 @@ export default {
           border: 'var(--tk-border)',
           primary: 'var(--tk-primary)',
           primary2: 'var(--tk-primary-2)',
+          accent: 'var(--tk-accent)',
         },
       },
       fontFamily: {
@@ -23,9 +24,13 @@ export default {
         body: ['Instrument Sans', 'ui-sans-serif', 'system-ui'],
       },
       boxShadow: {
-        soft: '0 18px 55px rgba(2, 6, 23, 0.08)',
-        lift: '0 18px 55px rgba(2, 6, 23, 0.14)',
+        soft: '0 18px 55px rgba(0, 0, 0, 0.4)',
+        lift: '0 18px 55px rgba(0, 0, 0, 0.6)',
+        neon: '0 0 20px rgba(0, 168, 255, 0.5), 0 0 40px rgba(29, 92, 255, 0.3)',
       },
+      backgroundImage: {
+        'glass-gradient': 'linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%)',
+      }
     },
   },
   plugins: [],
