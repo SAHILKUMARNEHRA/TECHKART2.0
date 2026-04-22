@@ -24,9 +24,9 @@ export default {
         body: ['Instrument Sans', 'ui-sans-serif', 'system-ui'],
       },
       boxShadow: {
-        soft: '0 18px 55px rgba(0, 0, 0, 0.4)',
-        lift: '0 18px 55px rgba(0, 0, 0, 0.6)',
-        neon: '0 0 20px rgba(0, 168, 255, 0.5), 0 0 40px rgba(29, 92, 255, 0.3)',
+        soft: '0 18px 55px rgba(2, 6, 23, 0.08)',
+        lift: '0 18px 55px rgba(2, 6, 23, 0.14)',
+        neon: '0 0 18px rgba(40, 116, 240, 0.22), 0 0 34px rgba(40, 116, 240, 0.14)',
       },
       backgroundImage: {
         'glass-gradient': 'linear-gradient(145deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%)',
