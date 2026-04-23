@@ -30,6 +30,7 @@ export default function Home() {
   const loadAll = useCatalogStore((s) => s.loadAll)
   const status = useCatalogStore((s) => s.status)
   const products = useCatalogStore((s) => s.products)
+  const brokenImageIds = useCatalogStore((s) => s.brokenImageIds)
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -38,9 +39,9 @@ export default function Home() {
 
   const { under10, under20, trending, brands } = useMemo(() => {
     const mapped = products.map((p) => ({ ...p, priceInr: toInrFromUsd(p.price) }))
-    const under10 = sortProductsForDisplay(mapped.filter((p) => p.priceInr <= 10000)).slice(0, 8)
-    const under20 = sortProductsForDisplay(mapped.filter((p) => p.priceInr <= 20000)).slice(0, 8)
-    const trending = sortProductsForDisplay(mapped.slice()).slice(0, 8)
+    const under10 = sortProductsForDisplay(mapped.filter((p) => p.priceInr <= 10000), brokenImageIds).slice(0, 8)
+    const under20 = sortProductsForDisplay(mapped.filter((p) => p.priceInr <= 20000), brokenImageIds).slice(0, 8)
+    const trending = sortProductsForDisplay(mapped.slice(), brokenImageIds).slice(0, 8)
 
     const brandCounts = new Map<string, number>()
     for (const p of mapped) brandCounts.set(p.brand, (brandCounts.get(p.brand) ?? 0) + 1)
@@ -50,7 +51,7 @@ export default function Home() {
       .map(([name]) => name)
 
     return { under10, under20, trending, brands }
-  }, [products])
+  }, [products, brokenImageIds])
 
   const containerVariants = {
     hidden: { opacity: 0 },

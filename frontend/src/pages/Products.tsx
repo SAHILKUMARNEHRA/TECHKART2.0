@@ -27,6 +27,7 @@ export default function Products() {
   const loadAll = useCatalogStore((s) => s.loadAll)
   const status = useCatalogStore((s) => s.status)
   const products = useCatalogStore((s) => s.products)
+  const brokenImageIds = useCatalogStore((s) => s.brokenImageIds)
   const [params] = useSearchParams()
 
   useEffect(() => {
@@ -99,8 +100,8 @@ export default function Products() {
 
     const sorted = base.slice()
     sorted.sort((a, b) => {
-      const aImg = hasValidImage(a)
-      const bImg = hasValidImage(b)
+      const aImg = hasValidImage(a, brokenImageIds)
+      const bImg = hasValidImage(b, brokenImageIds)
       if (aImg && !bImg) return -1
       if (!aImg && bImg) return 1
 
@@ -121,7 +122,7 @@ export default function Products() {
     })
 
     return sorted
-  }, [catalog, minRating, priceMax, priceMin, q, selectedBrands, selectedCategories, sort])
+  }, [catalog, minRating, priceMax, priceMin, q, selectedBrands, selectedCategories, sort, brokenImageIds])
 
   const clearAll = () => {
     setSelectedBrands(new Set())

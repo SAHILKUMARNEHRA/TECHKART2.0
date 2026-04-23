@@ -9,6 +9,7 @@ import { useToastStore } from '@/stores/toastStore'
 import { cn } from '@/lib/utils'
 import { getTechCategoryFromSlug } from '@/utils/techCategory'
 import { isBestChoice, hasValidImage } from '@/utils/productUtils'
+import { useCatalogStore } from '@/stores/catalogStore'
 import { motion } from 'framer-motion'
 
 export default function ProductCard({ product }: { product: Product }) {
@@ -18,6 +19,9 @@ export default function ProductCard({ product }: { product: Product }) {
   const compareCategory = useCompareStore((s) => s.category)
   const add = useCartStore((s) => s.add)
   const toast = useToastStore((s) => s.push)
+  const markImageBroken = useCatalogStore((s) => s.markImageBroken)
+  const brokenImageIds = useCatalogStore((s) => s.brokenImageIds)
+  
   const specs = getSpecProfile(product)
   const priceInr = toInrFromUsd(product.price)
   const techCategory = getTechCategoryFromSlug(product.category)
@@ -32,12 +36,13 @@ export default function ProductCard({ product }: { product: Product }) {
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-white flex items-center justify-center p-6">
         <img
-          src={hasValidImage(product) ? product.thumbnail : '/product-fallback.svg'}
+          src={hasValidImage(product, brokenImageIds) ? product.thumbnail : '/product-fallback.svg'}
           alt={product.title}
           loading="lazy"
           decoding="async"
           referrerPolicy="no-referrer"
           onError={(e) => {
+            markImageBroken(product.id)
             const el = e.currentTarget
             if (el.src.endsWith('/product-fallback.svg')) return
             el.src = '/product-fallback.svg'

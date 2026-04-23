@@ -16,6 +16,8 @@ export default function Cart() {
   const remove = useCartStore((s) => s.remove)
   const setQty = useCartStore((s) => s.setQty)
   const clear = useCartStore((s) => s.clear)
+  const brokenImageIds = useCatalogStore((s) => s.brokenImageIds)
+  const markImageBroken = useCatalogStore((s) => s.markImageBroken)
 
   useEffect(() => {
     void loadAll()
@@ -73,11 +75,12 @@ export default function Cart() {
               <div className="flex gap-5">
                 <div className="relative h-24 w-24 flex-none rounded-2xl bg-slate-50 p-4 shadow-sm">
                   <img
-                    src={hasValidImage(l!.product) ? l!.product.thumbnail : '/product-fallback.svg'}
+                    src={hasValidImage(l!.product, brokenImageIds) ? l!.product.thumbnail : '/product-fallback.svg'}
                     alt={l!.product.title}
                     className="h-full w-full object-contain"
                     loading="lazy"
                     onError={(e) => {
+                      markImageBroken(l!.product.id)
                       const el = e.currentTarget
                       if (el.src.endsWith('/product-fallback.svg')) return
                       el.src = '/product-fallback.svg'

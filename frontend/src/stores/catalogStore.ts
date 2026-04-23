@@ -8,13 +8,21 @@ type CatalogState = {
   status: Status
   products: Product[]
   error: string | null
+  brokenImageIds: Record<number, boolean>
   loadAll: () => Promise<void>
+  markImageBroken: (id: number) => void
 }
 
 export const useCatalogStore = create<CatalogState>((set, get) => ({
   status: 'idle',
   products: [],
   error: null,
+  brokenImageIds: {},
+  markImageBroken: (id: number) => {
+    set((state) => ({
+      brokenImageIds: { ...state.brokenImageIds, [id]: true }
+    }))
+  },
   loadAll: async () => {
     const { status } = get()
     if (status === 'loading' || status === 'success') return
