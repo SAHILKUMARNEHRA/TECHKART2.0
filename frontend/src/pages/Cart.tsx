@@ -7,6 +7,8 @@ import { useCartStore } from '@/stores/cartStore'
 import { useCatalogStore } from '@/stores/catalogStore'
 import { formatInr, toInrFromUsd } from '@/utils/money'
 
+import { hasValidImage } from '@/utils/productUtils'
+
 export default function Cart() {
   const loadAll = useCatalogStore((s) => s.loadAll)
   const products = useCatalogStore((s) => s.products)
@@ -71,10 +73,15 @@ export default function Cart() {
               <div className="flex gap-5">
                 <div className="relative h-24 w-24 flex-none rounded-2xl bg-slate-50 p-4 shadow-sm">
                   <img
-                    src={l!.product.thumbnail}
+                    src={hasValidImage(l!.product) ? l!.product.thumbnail : '/product-fallback.svg'}
                     alt={l!.product.title}
                     className="h-full w-full object-contain"
                     loading="lazy"
+                    onError={(e) => {
+                      const el = e.currentTarget
+                      if (el.src.endsWith('/product-fallback.svg')) return
+                      el.src = '/product-fallback.svg'
+                    }}
                   />
                 </div>
                 <div className="min-w-0 flex-1">
@@ -94,11 +101,12 @@ export default function Cart() {
                   <div className="mt-4 flex items-center justify-between gap-3 border-t border-tk-border pt-4">
                     <div className="inline-flex items-center overflow-hidden rounded-xl border border-tk-border bg-white shadow-sm">
                       <button
-                        className="h-9 w-10 text-slate-700 transition hover:bg-slate-900/5"
+                        className="h-9 w-10 text-slate-700 transition hover:bg-slate-900/5 disabled:opacity-30 disabled:hover:bg-transparent"
                         onClick={() => setQty(l!.product.id, l!.qty - 1)}
+                        disabled={l!.qty <= 1}
                         aria-label="Decrease quantity"
                       >
-                        <Minus size={16} className="mx-auto" />
+                        {l!.qty > 1 ? <Minus size={16} className="mx-auto" /> : null}
                       </button>
                       <div className="h-9 w-12 text-center text-sm font-bold leading-9 text-slate-900">{l!.qty}</div>
                       <button

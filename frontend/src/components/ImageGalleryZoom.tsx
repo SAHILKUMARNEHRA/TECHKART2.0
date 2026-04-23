@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils'
 
 export default function ImageGalleryZoom({ images, title }: { images: string[]; title: string }) {
   const list = useMemo(() => {
-    const next = images.filter(Boolean)
+    const next = images.filter(img => img && img.trim() !== '' && !img.includes('fallback'))
     return next.length > 0 ? next : ['/product-fallback.svg']
   }, [images])
   const [active, setActive] = useState(list[0])

@@ -8,7 +8,7 @@ import { useCartStore } from '@/stores/cartStore'
 import { useToastStore } from '@/stores/toastStore'
 import { cn } from '@/lib/utils'
 import { getTechCategoryFromSlug } from '@/utils/techCategory'
-import { isBestChoice } from '@/utils/productUtils'
+import { isBestChoice, hasValidImage } from '@/utils/productUtils'
 import { motion } from 'framer-motion'
 
 export default function ProductCard({ product }: { product: Product }) {
@@ -32,7 +32,7 @@ export default function ProductCard({ product }: { product: Product }) {
     >
       <div className="relative aspect-[4/3] w-full overflow-hidden bg-white flex items-center justify-center p-6">
         <img
-          src={product.thumbnail}
+          src={hasValidImage(product) ? product.thumbnail : '/product-fallback.svg'}
           alt={product.title}
           loading="lazy"
           decoding="async"
